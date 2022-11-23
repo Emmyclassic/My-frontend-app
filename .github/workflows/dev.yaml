@@ -1,9 +1,9 @@
 name: Build Docker image and push to repo.
 on:
   push:
-    branches: [ main]
+    branches: [ master]
   pull_request:
-    branches: [ main]
+    branches: [ master]
 
   workflow_dispatch:
 
@@ -31,7 +31,7 @@ jobs:
            ECR_REPOSITORY: dev-ecr-repo
            IMAGE_TAG: latest #${{ github.sha }}
         run: |
-           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -f prod.Dockerfile .
+           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -f Dockerfile .
            docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
            
       # - name: Deploy to cluster
