@@ -1,0 +1,108 @@
+.stepOne {
+  font-family: ttnorms;
+  margin-top: 2rem;
+  width: 55%;
+}
+
+.form__input_wrap {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  gap: 15px;
+}
+.form__input_inline > .form__input_box {
+  flex: 0 0 49%;
+}
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input_label {
+  color: #5c6574;
+  font-size: 1.3rem;
+  font-family: ttnorms;
+  font-weight: 400;
+}
+.form__input {
+  border: 1px solid #ced0d5;
+  outline: none;
+  padding: 1rem;
+}
+.form__input::placeholder {
+  color: #edeef1;
+}
+
+.form__label_text {
+  margin-left: 1rem;
+}
+.input__date {
+  display: flex;
+  gap: 10px;
+}
+.form__input_date {
+  margin-right: 1rem;
+  width: 100%;
+}
+.form__input_time {
+  margin-right: 1rem;
+  width: 40%;
+}
+
+.form__input_submit_request {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  margin-top: 1.5rem;
+  padding: 1.4rem;
+  width: 100%;
+}
+
+.uploadSubText {
+  color: #5c6574;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.uploadSubText_right {
+  color: #ef3125;
+}
+
+.validation__error {
+  color: #ff4040;
+}
+.avatar_uploader {
+  width: 100%;
+}
+
+.bannerImageBox {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.form__input_label {
+  align-items: center;
+  color: #030111;
+  display: flex;
+  font-family: ttnorms;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.form__label_text {
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.form__input_setting {
+  align-self: flex-start;
+}
+.form__label_title {
+  color: #000;
+  font-family: ttnorms;
+  margin-top: -1rem;
+}
+.form__label_content {
+  color: #acb3bd;
+}

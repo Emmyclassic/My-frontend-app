@@ -1,0 +1,20 @@
+.ant-upload.ant-upload-select-picture-card {
+  width: 100% !important;
+}
+
+.avatar-uploader {
+  height: 150px !important;
+}
+
+.ant-upload.ant-upload-drag .ant-upload-btn {
+  display: table;
+  height: 100%;
+  padding: 0rem !important;
+}
+
+.ant-upload.ant-upload-drag {
+  height: 4.5%;
+  margin-bottom: 2rem;
+  border: none !important;
+}
+/*# sourceMappingURL=index.css.map */

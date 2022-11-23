@@ -1,0 +1,51 @@
+name: Build Docker image and push to repo.
+on:
+  push:
+    branches: [ main]
+  pull_request:
+    branches: [ main]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.ACCESS_KEY_ID}}
+          aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
+          aws-region: eu-west-2 
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+
+      - name: Build, tag, and push image to Amazon ECR
+        uses: actions/checkout@v2
+      - env:
+           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+           ECR_REPOSITORY: dev-ecr-repo
+           IMAGE_TAG: latest #${{ github.sha }}
+        run: |
+           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -f prod.Dockerfile .
+           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+           
+      # - name: Deploy to cluster
+      #   uses: azure/setup-kubectl@v2.0
+      #   with:
+      #     version: 'v1.23.6'
+      #     id: install
+      # - env:
+      #     ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+      #     ECR_REPOSITORY: dev-ecr-repo
+      #     IMAGE_TAG: latest #${{ github.sha }}
+      #   run: |
+      #      aws eks update-kubeconfig --name mojecsolutions
+      #      kubectl apply -f K8s/dev/deployment.yaml
+      #  # restart pods
+      # - run: | 
+      #      kubectl -n uat-env rollout restart deployment inventory-service

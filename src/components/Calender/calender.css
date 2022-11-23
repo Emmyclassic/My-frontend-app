@@ -1,0 +1,92 @@
+.apemsCalender {
+  background-color: #f8f9fd;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #687da0;
+  font-family: CenturyGothic;
+  padding: 30px 20px;
+  width: 400px;
+}
+
+.apemTitle {
+  background-color: red;
+}
+
+.react-calendar__navigation__label {
+  color: #030111;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.doubleArrowRight,
+.doubleArrowLeft {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: 1px solid #ef3125;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45px;
+}
+
+.doubleArrowLeft {
+  background-color: #fff;
+  border: 1px solid #dadfe6;
+  height: 30px;
+  width: 30px;
+}
+
+.react-calendar__tile {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+}
+
+.arrow-space {
+  margin-right: 10px;
+}
+
+.react-calendar__tile--now {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ef3125;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.react-calendar__tile--now:hover,
+.react-calendar__tile--now:focus {
+  background-color: #ef3125 !important;
+  color: #fff !important;
+}
+
+.custom-today-day {
+  background-color: #1087ff !important;
+  color: #fff !important;
+}
+
+.Calendar__monthYearContainer {
+  color: #030111;
+  font-family: ttnorms !important;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: left;
+}
+/*# sourceMappingURL=calender.css.map */

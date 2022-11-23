@@ -1,0 +1,22 @@
+.container_wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content_container {
+  padding: 1.5rem 0 4rem;
+  width: 70rem;
+  @media (max-width: 860px) {
+    padding: 1.5rem 2rem 4rem;
+    width: 100%;
+  }
+}
+
+.content_title {
+  font-weight: 600;
+  margin-top: 0.85rem;
+}

@@ -1,0 +1,84 @@
+.containerNav_iconBox {
+  align-items: center;
+  background-color: #acb3bd;
+  border-radius: 50%;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  margin-bottom: 3rem;
+  width: 30px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 40%;
+  position: relative;
+}
+
+.meetingWrapper {
+  background-color: #f5f7f8;
+  border: 1px solid #ff4040;
+  padding: 3px 1px;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+}
+
+.download_meeting {
+  background-color: #f5f7f8;
+}
+
+.containerHeader {
+  font-family: ttnorms;
+  font-weight: 900;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.containerPara {
+  font-family: ttnorms;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+.blur_block_green {
+  background: #09974d 0% 0% no-repeat padding-box;
+  filter: blur(25px);
+  opacity: 1;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 100%;
+  top: 0%;
+}
+.eventInput {
+  position: relative;
+}
+.eventInput::after {
+  content: "";
+  background: url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940344/apems/group_cn9j34.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+  text-align: center;
+  width: 90%;
+  left: -200px;
+  top: 30px;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
+}
+
+.validate_error {
+  color: red;
+  z-index: 9000;
+  position: relative;
+}

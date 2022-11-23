@@ -1,0 +1,37 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 5px 10px;
+  position: absolute;
+}
+
+.container_text {
+  color: var(--color-success);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 12px;
+}
+
+.container_icon {
+  color: var(--color-success);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,335 @@
+.containerNav {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.containerNav_left {
+  margin-right: auto;
+}
+
+.containerNav_iconBox {
+  align-items: center;
+  background-color: #acb3bd;
+  border-radius: 50%;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+.publishEvent {
+  background-color: #ef3125;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1.5rem;
+}
+.editContinue:link,
+.editContinue:active {
+  color: #5c6574;
+  font-family: ttnorms;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+}
+.containerNav_right {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.resourceNav {
+  display: flex;
+  justify-content: space-between;
+}
+.resourecLeft {
+  border-right: 1px solid #0000001a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+}
+.tabContent {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.resourecRight {
+  width: 70%;
+}
+.eventIndicate {
+  opacity: 0;
+}
+.indicatorTitle {
+  color: #5c6574;
+  font-size: 1.5rem;
+}
+.selectedTab {
+  opacity: 1;
+}
+.selectedTitleTab {
+  color: #000;
+  font-family: ttnorms;
+  font-weight: 600;
+}
+.social__list {
+  display: flex;
+  margin-top: 2rem;
+}
+.partner__list_link:link,
+.partner__list_link:visited,
+.social__list__link:visited,
+.social__list__link:link {
+  color: #707070;
+}
+
+.social__list_item:not(:last-child),
+.partner__list_item:not(:last-child) {
+  margin-bottom: 2rem;
+  margin-right: 10px;
+}
+.social__icon {
+  align-items: center;
+  background-color: #ef3125;
+  border-radius: 50%;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  width: 3rem;
+}
+
+.shareBox {
+  display: flex;
+}
+.sharable {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.resourceType_title {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.resourceType_para {
+  color: #5c6574;
+}
+.resourceColl {
+  margin-top: 3rem;
+}
+.uploadedDoc_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.uploadedDoc_list_item {
+  background: #fbfcfc 0% 0% no-repeat padding-box;
+  border: 1px dashed #6d76834d;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  margin-right: 5%;
+  opacity: 1;
+  padding: 15px;
+  width: 30%;
+}
+
+.uploadImg {
+  width: 50px;
+}
+.uploadImg_name {
+  color: #8c929c;
+  font-size: 1.3rem;
+}
+
+.uploadedDoc_list_item:nth-child(3n + 0) {
+  margin-right: 0;
+}
+
+.uploadFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+.uploadFile {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.pollContainer {
+  margin-bottom: 4rem;
+  width: 60%;
+}
+.pollPara {
+  margin-bottom: 2rem;
+}
+.userReaction {
+  display: flex;
+}
+.userReactionBox {
+  align-items: center;
+  border: 1px solid #ced0d5;
+  display: flex;
+  margin-right: 1.3rem;
+  padding: 0.5rem 2rem;
+}
+.handleEmoji {
+  height: 30px;
+  margin-right: 15px;
+  width: 30px;
+}
+.pollTitle {
+  font-family: ttnorms;
+  font-size: 1.5rem;
+}
+.handleReaction {
+  font-family: ttnorms;
+  font-size: 1.5rem;
+}
+.pollPara {
+  font-family: ttnorms;
+}
+
+.headerTab {
+  align-items: center;
+  display: flex;
+}
+.headerLeft {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.iconBox {
+  display: block;
+  margin-right: 10px;
+}
+.duration_left {
+  color: #6d7683;
+  display: block;
+  font-family: ttnorms;
+}
+.duration_date {
+  display: block;
+  font-family: ttnorms;
+  font-size: 1.3rem;
+}
+.stakeHolderBox,
+.stakeHolderPos {
+  border-color: #6d7683;
+  border-width: 0 0 2px;
+  outline: none;
+  outline: 0;
+}
+.stakeHolderBox::placeholder {
+  color: #2f89fe;
+}
+
+.selectHolderTake {
+  border: 1px solid #6d7683;
+  outline: none;
+  padding: 5px;
+}
+
+.resolutionWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pollContainer {
+  margin-right: 0%;
+  margin-right: 5%;
+  width: 45%;
+}
+.resolutionWrapper .pollContainer:nth-child(2n + 0) {
+  margin-right: 0;
+}
+.resolutionTab {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: ttnorms;
+  line-height: 30px;
+}
+.userFor {
+  background-color: #09974d;
+  color: #fff;
+}
+.userAgainst {
+  background-color: #ef3125;
+  color: #fff;
+}
+.userAbstain {
+  background-color: #000;
+  color: #fff;
+}
+.electionTab {
+  width: 50%;
+}
+
+.electionTitle {
+  font-family: ttnorms;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.electionType {
+  margin-bottom: 1.5rem;
+}
+.electionType h4 {
+  font-family: ttnorms;
+  font-size: 1.3rem;
+  margin-bottom: 1.4rem;
+}
+.askQuestion {
+  color: #5c6574;
+  margin-right: 1.5rem;
+}
+.askQuestion:hover {
+  color: #5c6574;
+}
+.askQuestion:active,
+.askQuestion:link {
+  text-decoration: underline;
+}
+.form__input_wrap {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  width: 100%;
+}
+
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input_label {
+  align-items: center;
+  color: #030111;
+  display: flex;
+  font-family: ttnorms;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.form__input {
+  background-color: #eeeef5;
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  flex: 1;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1.2rem;
+}
+.form__input::placeholder {
+  color: #5c6574;
+}
+.modalResolution_badge {
+  background-color: #09974d52;
+  border-radius: 5px;
+  color: #09974d;
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+}
+
+.modalResolution_header {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 2rem;
+  font-weight: 600;
+}

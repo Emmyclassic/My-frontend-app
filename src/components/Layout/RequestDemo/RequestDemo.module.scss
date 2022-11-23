@@ -1,0 +1,233 @@
+@import "../../../styles/abstracts/mixins";
+.fourth__main {
+  background-color: #f4f5f9;
+  position: relative;
+  @include respond(phone) {
+    // padding: 3rem 2rem;
+    padding: 0;
+  }
+}
+.fourth__main__wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+  @include respond(phone) {
+    // flex-direction: column;
+    display: none;
+  }
+}
+.fourth__main__wrapper_form {
+  display: flex;
+  flex: 0 0 50%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem;
+  @include respond(phone) {
+    padding: 0;
+  }
+}
+
+.fourth__main__wrapper_title {
+  font-size: 4rem;
+  font-weight: 900;
+   @include respond(phone) {
+     font-size: 2.7rem;
+  }
+}
+.fourth__main__wrapper_desc {
+  margin-bottom: 2.5rem;
+  @include respond(phone) {
+    text-align: left;
+  }
+}
+.fourth__main__wrapper_title_1 {
+  color: #030111;
+}
+.fourth__main__wrapper_title_2 {
+  color: #ef3125;
+  text-transform: capitalize;
+}
+.fourth__main__wrapper_subtitle {
+  color: #646464;
+  font-size: 1.5rem;
+  font-weight: 600;
+  @include respond(phone) {
+    // font-size: 1.7rem;
+  }
+}
+
+.form__input_wrap {
+  margin-bottom: 1.9rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  justify-content: space-between;
+  @include respond(phone) {
+    flex-direction: column;
+  }
+}
+.form__input_inline > .form__input_box {
+  flex: 0 0 45%;
+}
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+  @include respond(phone) {
+    // margin-bottom: 1.5rem;
+  }
+}
+
+.form__input_label {
+  color: #565b63;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  @include respond(phone) {
+    // font-size: 1.7rem;
+    // font-weight: normal;
+   
+  }
+}
+
+.form__input {
+  border: 0.1px solid #5c65748f;
+  outline: none;
+  padding: 1.3rem;
+  @include respond(phone) {
+     border-radius: 5px;
+  }
+}
+.form__input_submit_request {
+  background-color: #ff4040;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 1.4rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.fourth__main__wrapper_img {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940339/apems/brandy1_dtnrdf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75rem;
+  position: relative;
+  width: 100%;
+
+  @include respond(phone) {
+    display: none;
+  }
+}
+.brandy__image {
+  display: block;
+  height: 75rem;
+  object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about__brandy {
+  background: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  // bottom: 2rem;
+  height: 100%;
+  // left: -45px;
+  padding: 2rem;
+  // position: absolute;
+  width: 100%;
+}
+.about__brandy_box {
+  display: flex;
+}
+.brandy_name__avatar {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+}
+.about__avatar {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.about__avatar_name {
+  font-size: 1.3rem;
+}
+
+.about__avatar_email {
+  color: #e6eaed;
+  font-size: 1.2rem;
+}
+.short_brand_desc {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-top: 1.5rem;
+}
+.testimonyCont {
+  height: 20rem;
+  left: -45px;
+  padding: 2rem;
+  position: absolute;
+  width: 40rem;
+  bottom: 2rem;
+  @include respond(phone) {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: static;
+  }
+}
+
+.validation__error {
+  color: #ff4040;
+  font-family: ttnorms;
+}
+
+.mobile__wrapper {
+  height: 100%;
+  display: none;
+  position: relative;
+  margin-bottom: 140px;
+    @include respond(phone) {
+    display: flex;
+  }
+}
+
+.mobile__box1 {
+  background-color: white;
+  width: 60%;
+}
+.mobile__box2 {
+  width: 40%;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940339/apems/brandy1_dtnrdf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile__contents {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 90%;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}

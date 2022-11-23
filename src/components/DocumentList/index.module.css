@@ -1,0 +1,43 @@
+.container {
+  opacity: 1;
+  padding: 15px;
+  position: relative;
+}
+
+.container:nth-child(4n + 0) {
+  margin-right: 0;
+}
+
+.container_icon {
+  display: block;
+}
+
+.container_footer {
+  font-family: ttnorms;
+  font-size: 1.2rem;
+}
+
+.container_footerSub {
+  font-size: 1.2rem;
+}
+
+.container_footerTitle {
+  font-weight: 600;
+  font-family: ttnorms;
+  font-size: 1.2rem;
+}
+
+.removeIcon {
+  color: #6d76834d;
+}
+
+.removeIcon:hover {
+  color: #ef3125;
+}
+
+.removeIconBox {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+}
+/*# sourceMappingURL=index.module.css.map */

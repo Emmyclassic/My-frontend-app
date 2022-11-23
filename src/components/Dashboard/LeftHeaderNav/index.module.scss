@@ -1,0 +1,13 @@
+.container {
+  margin-right: auto;
+  &__title {
+    font-family: ttnorms;
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  &__subtitle {
+    color: #5c6574;
+    font-size: 13px;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,166 @@
+.createEventBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.createLink {
+  background-color: #ef3125;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1rem 1.3rem;
+}
+
+.createLink:hover {
+  color: #fff;
+}
+
+.eventStatusBox {
+  margin-bottom: 3rem;
+}
+
+.eventStatusType {
+  background: #e5f4ed 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 5px;
+  border-radius: 5px;
+  color: #09974d;
+  font-family: ttnorms;
+  opacity: 1;
+  padding: 1rem 1.3rem;
+}
+
+.searchable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.searchable_left {
+  margin-right: auto;
+  width: 50%;
+}
+
+.searchInputBox {
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.searchInput {
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  border: none;
+  opacity: 1;
+  outline: none;
+  padding: 1.2rem;
+  width: 100%;
+}
+
+.searchInput::-webkit-input-placeholder {
+  color: #0000001a;
+}
+
+.searchInput:-ms-input-placeholder {
+  color: #0000001a;
+}
+
+.searchInput::-ms-input-placeholder {
+  color: #0000001a;
+}
+
+.searchInput::placeholder {
+  color: #0000001a;
+}
+
+.searchIcon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: 1px solid #0000001a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 1.5rem;
+}
+
+.eventTypeList {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff 0% 0% no-repeat padding-box;
+  border: 1px solid #0000001a;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 1;
+  outline: none;
+  padding: 1rem 1.5rem;
+}
+
+.eventTypeList > span:first-child {
+  margin-right: 3rem;
+}
+
+.paginateNav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: ttnorms;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.paginateNav > span:first-child {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.event__list__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.paginateBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.upcomingType {
+  margin-bottom: 3rem;
+}
+/*# sourceMappingURL=index.module.css.map */

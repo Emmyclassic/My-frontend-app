@@ -1,0 +1,24 @@
+.form__input {
+  background-color: #eeeef5;
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #5c6574;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #5c6574;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #5c6574;
+}
+
+.form__input::placeholder {
+  color: #5c6574;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,48 @@
+/*
+0 - 600px phone
+600px - 900px  Tablet Protraits
+900px - 1200px  Tablet Landscape
+1200px - 1800 current style apply
+1800+ Big desktop
+*/
+/*
+Breakpoint aurgument
+- Phone
+- Tablet-protrait
+- Tablet-landscape
+- big Desktop
+
+*/
+.meeting__input {
+  border: none;
+  color: rgba(0, 0, 0, 0.7);
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  outline: none;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .meeting__input {
+    padding: 2rem 15px;
+    border-radius: 10px;
+  }
+}
+
+.meeting__input::-webkit-input-placeholder {
+  color: #5c6574;
+}
+
+.meeting__input:-ms-input-placeholder {
+  color: #5c6574;
+}
+
+.meeting__input::-ms-input-placeholder {
+  color: #5c6574;
+}
+
+.meeting__input::placeholder {
+  color: #5c6574;
+}
+/*# sourceMappingURL=Input.module.css.map */

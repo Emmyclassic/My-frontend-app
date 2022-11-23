@@ -1,0 +1,98 @@
+@import "../../styles/abstracts/mixins";
+
+.meetingEvent {
+  padding: 15rem;
+  padding-bottom: 10rem;
+
+  @include respond(tab-land) {
+    padding: 0px;
+    width: 80%;
+    margin: 40px auto;
+  }
+  @include respond(phone) {
+    width: 100%;
+    margin: 40px auto;
+  }
+}
+
+.people {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  margin: auto;
+  width: 90%;
+  @include respond(tab-land) {
+    flex-direction: column;
+  }
+  @include respond(phone) {
+  }
+}
+.imageContainer {
+  width: 40%;
+  &_img {
+    border-radius: 10px;
+    display: block;
+    height: 40rem;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @include respond(tab-land) {
+    width: 100%;
+  }
+}
+
+.descContainer2 {
+  padding-right: 50px;
+  order: -1;
+  @include respond(tab-land) {
+    order: 1;
+  }
+}
+.descContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // padding: 40px;
+  &_title {
+    font-family: ttnorms;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  &_wrapper {
+    margin-left: 30px;
+    width: 100%;
+  }
+  &_desc {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: ttnorms;
+    font-weight: 500;
+    text-align: justify;
+  }
+
+  @include respond(tab-land) {
+    padding: 40px 0;
+    display: block;
+    width: 100%;
+    &_wrapper {
+      margin: 0 auto;
+      width: 90%;
+    }
+    &_title {
+      text-align: center;
+      font-size: 3rem;
+    }
+    &_desc {
+      color: rgba(0, 0, 0, 0.7);
+      font-family: ttnorms;
+      font-weight: 500;
+    }
+    
+  }
+  @include respond(phone) {
+    &_wrapper {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,166 @@
+.main {
+  font-family: tttnorms;
+  width: 40%;
+
+  &_container {
+    margin-bottom: 10rem;
+    margin-top: 4rem;
+    text-align: center;
+    &_imgbox {
+      width: 25rem;
+    }
+    &_title {
+      color: #030111;
+      font-family: ttnorms;
+      font-size: 1.8rem;
+    }
+    &_content {
+      color: #5c6574;
+      font-family: ttnorms;
+      font-size: 1.5rem;
+    }
+    &_btnContainer {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-top: 3rem;
+    }
+    &_btnContainer_btn {
+      background-color: #fff;
+      font-family: ttnorms;
+      font-weight: 500;
+      outline: none;
+      &_icon {
+        margin-right: 1.5rem;
+      }
+    }
+    &_btnContainer_res {
+      border: 1px solid #09974d;
+      border-radius: 5px;
+      color: #09974d;
+      display: flex;
+      margin-right: 1.5rem;
+      padding: 1.5rem 2rem;
+    }
+    &_btnContainer_elec {
+      border: none;
+      text-decoration: underline;
+    }
+  }
+}
+
+.modalResolution_formWrapper {
+  width: 100%;
+}
+.modalResolution_badge {
+  background-color: #09974d52;
+  border-radius: 5px;
+  color: #09974d;
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+}
+
+.modalResolution_header {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.form__input_submit_request {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  padding: 1.4rem;
+  width: 100%;
+}
+.form__input_wrap {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  width: 100%;
+}
+
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input_label {
+  align-items: center;
+  color: #030111;
+  display: flex;
+  font-family: ttnorms;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.form__input {
+  background-color: #eeeef5;
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1.3rem;
+}
+.form__input::placeholder {
+  color: #5c6574;
+}
+.form__input_inline > .form__input_box {
+  justify-content: space-between;
+  width: 50%;
+}
+.input__date {
+  display: flex;
+  justify-content: space-between;
+}
+.form__input_date {
+  margin-right: 1rem;
+  width: 55%;
+}
+.form__input_time {
+  margin-right: 1rem;
+  width: 40%;
+}
+.settings {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.settingWrapper {
+  position: relative;
+}
+.settingList {
+  position: sticky;
+  top: 30px;
+}
+.switchContainer {
+  margin-right: 1.5rem;
+}
+.switchTitle {
+  color: #000;
+  font-family: ttnorms;
+}
+
+.form__label_text {
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.form__input_setting {
+  align-self: flex-start;
+}
+.form__label_title {
+  color: #000;
+  font-family: ttnorms;
+  margin-top: -1rem;
+}
+.form__label_content {
+  color: #acb3bd;
+}
+.poll_btn {
+  background-color: #5c6574;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 30rem;
+  outline: none;
+  padding: 2rem 4rem;
+}

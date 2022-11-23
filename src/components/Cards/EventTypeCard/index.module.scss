@@ -1,0 +1,60 @@
+.main {
+  width: 100%;
+}
+.eventContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95% !important;
+}
+
+.meeting_btn_box {
+  background-color: #fffbfa;
+  border: 2px solid #ef3125;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 48% !important;
+  margin-bottom: 1rem;
+  padding: 3rem 2.5rem;
+}
+.meeting_btn_box:not(:last-child) {
+  margin-right: 2%;
+}
+.meeting_btn_icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.meeting_btn_text_box {
+  margin-left: 15px;
+}
+.meeting_btn_text_header {
+  color: #030111;
+  font-family: ttnorms;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.54px;
+  margin-bottom: 0;
+  opacity: 1;
+}
+.meeting_btn_text_para {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: ttnorms;
+}
+
+.meeting_btn_box:hover {
+  background: linear-gradient(
+      to right bottom,
+      rgba(239, 50, 37, 0.9),
+      rgba(239, 50, 37, 0.9)
+    ),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff !important;
+}
+.meeting_btn_box:hover * {
+  color: #fff;
+}

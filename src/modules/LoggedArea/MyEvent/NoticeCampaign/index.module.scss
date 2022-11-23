@@ -1,0 +1,122 @@
+.analytics {
+  margin-top: 3rem;
+  max-width: 100rem;
+}
+.analytics_header {
+  display: flex;
+  &_left {
+    font-family: ttnorms;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: auto;
+  }
+  &_right {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.analytics_iconBox {
+  align-items: center;
+  background-color: #e6eaed;
+  border-radius: 50%;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+.filterContainer {
+  border-top: 1px solid #e2e5ec;
+  display: flex;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+.filterContainer_left {
+  margin-right: auto;
+}
+.left_btn {
+  background: #f2faf6 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 5px;
+  border-radius: 5px;
+  color: #09974d;
+  font-family: ttnorms;
+  opacity: 1;
+  padding: 0.8rem 1.5rem;
+}
+.newList {
+  background-color: #09974d;
+  border: none;
+  border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: ttnorms;
+  opacity: 1;
+  padding: 0.8rem 1.5rem;
+}
+.analytics_content {
+  border: 1px solid #e2e5ec;
+
+  margin-top: 1.5rem;
+}
+.analytic_content_header {
+  border-bottom: 1px solid #e2e5ec;
+  display: flex;
+  padding: 1.3rem;
+  &_left {
+    font-family: ttnorms;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: auto;
+  }
+}
+.analytics_body {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem;
+  &_list {
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+    &:not(:last-child) {
+      border-right: 1px solid #e2e5ec;
+    }
+  }
+  &_header {
+    font-family: ttnorms;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+.menu_item {
+  padding: 5px 4rem 5px 0px !important;
+  opacity: 0.56;
+  letter-spacing: 0.48px;
+  &_delete {
+    color: #F16C65;
+    padding: 1.5rem 2rem;
+    letter-spacing: 0.48px;
+  }
+}
+.menu_container {
+  box-shadow: 0px 2px 15px #EDEEF1;
+  border: 1px solid #E6EAED;
+  border-radius: 10px !important;
+  opacity: 1;
+  padding: 0.5rem 2rem !important;
+}
+.add_attendee,
+.send_message {
+  margin: 0px 1rem 0px 1.5rem;
+  padding: 0.85rem 2rem;
+  border: 1px solid #5C6574;
+  border-radius: 5px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.send_message {
+  background: #5C6574 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  margin: 0px;
+}
+.ml_1 {
+  margin-left: 2rem;
+}

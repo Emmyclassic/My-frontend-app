@@ -1,0 +1,71 @@
+.container_badge {
+  background-color: #f2faf6;
+  border-radius: 10px;
+  font-family: ttnorms;
+  color: #09974d;
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.container_header {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mainHeader {
+  border-bottom: 1px solid #e2e5ec;
+}
+
+.container_formWrapper {
+  margin-top: 1.5rem;
+}
+
+.mainHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paraBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.removeTrash {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.deleteIcon {
+  font-family: ttnorms;
+  font-weight: 500;
+  font-size: 14px;
+}
+/*# sourceMappingURL=index.module.css.map */

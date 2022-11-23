@@ -1,0 +1,94 @@
+.modalResolution_formWrapper {
+  width: 100%;
+}
+.modalResolution_badge {
+  background-color: #09974d52;
+  border-radius: 5px;
+  color: #09974d;
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+}
+
+.modalResolution_header {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.form__input_submit_request {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  padding: 1.4rem;
+  width: 100%;
+}
+
+.form__input_wrap {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  width: 100%;
+}
+
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input_label {
+  align-items: center;
+  color: #5c6574;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.form__input {
+  background-color: #eeeef5;
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.form__input::placeholder {
+  color: #5c6574;
+}
+.form__input_inline > .form__input_box:first-child {
+  justify-content: space-between;
+  margin-right: 3rem;
+  width: 60%;
+}
+.input__date {
+  display: flex;
+  justify-content: space-between;
+}
+.form__input_date {
+  margin-right: 1rem;
+  width: 55%;
+}
+.form__input_time {
+  margin-right: 1rem;
+  width: 40%;
+}
+.poll_btn {
+  background-color: #5c6574;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  padding: 2rem 4rem;
+}
+
+.validation__error {
+  color: #ff4040;
+}
+
+.donationContainer {
+  display: flex;
+}
+.form__input_currency {
+  outline: none;
+  border-radius: 0;
+}

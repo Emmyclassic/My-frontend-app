@@ -1,0 +1,103 @@
+.createEventBox {
+  display: flex;
+  justify-content: flex-end;
+}
+.createLink {
+  background-color: #ef3125;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1rem 1.3rem;
+}
+.createLink:hover {
+  color: #fff;
+}
+
+.eventStatusBox {
+  margin-bottom: 3rem;
+}
+.eventStatusType {
+  background: #e5f4ed 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 5px;
+  border-radius: 5px;
+  color: #09974d;
+  font-family: ttnorms;
+  opacity: 1;
+  padding: 1rem 1.3rem;
+}
+
+.searchable {
+  display: flex;
+}
+.searchable_left {
+  margin-right: auto;
+  width: 50%;
+}
+
+.searchInputBox {
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.searchInput {
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  border: none;
+  opacity: 1;
+  outline: none;
+  padding: 1.2rem;
+  width: 100%;
+}
+.searchInput::placeholder {
+  color: #0000001a;
+}
+.searchIcon {
+  align-items: center;
+  border-right: 1px solid #0000001a;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+}
+
+.eventTypeList {
+  align-items: center;
+  background: #fff 0% 0% no-repeat padding-box;
+  border: 1px solid #0000001a;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  outline: none;
+  padding: 1rem 1.5rem;
+}
+.eventTypeList > span:first-child {
+  margin-right: 3rem;
+}
+
+.paginateNav {
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-family: ttnorms;
+  justify-content: center;
+}
+.paginateNav > span:first-child {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.event__list__box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+.paginateBox {
+  display: flex;
+  justify-content: flex-end;
+}
+.upcomingType {
+  margin-bottom: 3rem;
+}

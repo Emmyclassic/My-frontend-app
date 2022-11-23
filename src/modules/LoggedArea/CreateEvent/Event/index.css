@@ -1,0 +1,17 @@
+.ant-upload.ant-upload-select-picture-card {
+  width: 100% !important;
+}
+
+.avatar-uploader {
+  height: 150px !important;
+}
+
+.form__input_date {
+  border: 1px solid #ced0d5;
+  margin-right: 1rem;
+  outline: none;
+  padding: 1rem !important;
+  padding: 1.5rem;
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

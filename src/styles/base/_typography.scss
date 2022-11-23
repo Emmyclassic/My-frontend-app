@@ -1,0 +1,29 @@
+/*=============================================
+=            body font size and font weight            =
+=============================================*/
+
+$body-font-size: var(--apm-body-font-size, $fs-md) !default;
+
+$body-font-weight: var(--apm-body-font-weight, $fw-normal) !default;
+
+/*=============================================
+=            Heading font size            =
+=============================================*/
+
+$h1-font-size: var(--amp-h1-font-size, $h-1) !default;
+$h2-font-size: var(--amp-h2-font-size, $h-2) !default;
+$h3-font-size: var(--amp-h3-font-size, $h-3) !default;
+$h4-font-size: var(--amp-h4-font-size, $h-4) !default;
+$h5-font-size: var(--amp-h5-font-size, $h-5) !default;
+$h6-font-size: var(--amp-h6-font-size, $h-6) !default;
+
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+$h1-text-weight: var(--amp-h1-text-weight, $fw-black) !default;
+$h2-text-weight: var(--amp-h2-text-weight, $fw-bold) !default;
+$h3-text-weight: var(--amp-h3-text-weight, $fw-semi-medium) !default;
+$h4-text-weight: var(--amp-h4-text-weight, $fw-medium) !default;
+$h5-text-weight: var(--amp-h5-text-weight, $fw-normal) !default;
+$h6-text-weight: var(--amp-h6-text-weight, $fw-light) !default;

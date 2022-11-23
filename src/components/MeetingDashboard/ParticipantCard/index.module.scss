@@ -1,0 +1,39 @@
+.cardwrap {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.participant_card {
+  background: #530006;
+  border: 3px solid #eaeaea;
+  color: #cdcccf;
+  border-radius: 12px;
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &_icon {
+    position: absolute;
+    bottom: -9px;
+    right: -10px;
+    background: #ff4040;
+    border-radius: 50%;
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &_name {
+    font-family: ttnorms;
+    font-size: 2.2rem;
+  }
+}
+.mic_on {
+  background: #09974d;
+}

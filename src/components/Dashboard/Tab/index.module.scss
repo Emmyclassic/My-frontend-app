@@ -1,0 +1,22 @@
+.tab_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tab {
+  border-bottom: 2px solid #5c6574;
+  cursor: pointer;
+  opacity: 0.2;
+  padding: 1.2rem 0;
+  width: 12rem;
+  width: 100%;
+  &_active {
+    border-bottom: 2px solid #ef3125;
+    color: #ef3125;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 1.2rem 0;
+    width: 100%;
+  }
+}

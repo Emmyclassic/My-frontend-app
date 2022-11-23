@@ -1,0 +1,48 @@
+.attendContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.5rem;
+  width: 70%;
+}
+
+.card-item {
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+.card-item_item_icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 1rem;
+}
+
+.card-item_item_title {
+  font-family: ttnorms;
+  font-size: 1.5rem;
+}
+
+.card-item_selected {
+  border: 1px solid #ef3125;
+  padding: 1rem 1.5rem;
+}
+
+.card-item_selected > span:first-child {
+  color: #ef3125;
+}
+/*# sourceMappingURL=index.css.map */

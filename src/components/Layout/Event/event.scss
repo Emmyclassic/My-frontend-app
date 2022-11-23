@@ -1,0 +1,16 @@
+.event__slider_mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .event__slider_mobile {
+    // display: block;
+      display: none;
+  }
+  .event__slider_mobile:first-child {
+    margin-top: 5rem;
+  }
+  .event__slider_mobile .slide:not(:last-child) {
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,27 @@
+.ant-steps-vertical
+> .ant-steps-item
+> .ant-steps-item-container
+> .ant-steps-item-tail::after {
+  background-color: #09974d;
+  border: 1px dashed #09974d;
+  height: 100%;
+}
+
+.customTableRow {
+  font-family: ttnorms;
+}
+
+.event-type {
+  font-family: ttnorms;
+  font-size: 14px;
+}
+
+.event-title {
+  color: var(--color-success);
+}
+
+.event-type-footer {
+  font-family: ttnorms;
+  font-size: 13px;
+}
+/*# sourceMappingURL=index.css.map */

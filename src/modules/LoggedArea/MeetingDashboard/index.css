@@ -1,0 +1,118 @@
+.ant-progress-inner {
+  border-radius: 0;
+}
+
+.customResult .ant-progress-text {
+  position: absolute;
+  color: #2f89fe;
+  right: 20%;
+  top: 30%;
+  font-family: ttnorms;
+}
+
+.customResult .ant-progress-outer {
+  margin-right: 0;
+  padding: 0;
+}
+
+.resolution-action {
+  position: absolute;
+  color: #fff;
+  left: 6%;
+  top: 20%;
+  z-index: 99;
+  font-family: ttnorms;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.resolution-progress {
+  position: relative;
+}
+
+.customPollResult .ant-progress-outer {
+  width: 90%;
+}
+
+.customPollResult .publishResult .ant-progress-line {
+  width: 60% !important;
+}
+
+.customPollResult .ant-progress-text {
+  color: #424242;
+  font-family: ttnorms;
+}
+
+.resolution-progress {
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+}
+
+.customPollResult-aginst .ant-progress-text {
+  color: #2f89fe;
+  font-family: ttnorms;
+}
+
+.resolution-action {
+  position: absolute;
+}
+
+.resolution-action-check {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+}
+
+.vote-result .ant-progress-text {
+  position: absolute;
+  color: #424242;
+  right: 20%;
+  top: 30%;
+  font-family: ttnorms;
+}
+
+#wc-container-right {
+  margin-top: 6rem !important;
+  height: 92% !important;
+}
+
+.chat-content__chat-scrollbar {
+  height: 520px !important;
+}
+
+[data-theme="compact"]
+  .site-collapse-custom-collapse
+  .site-collapse-custom-panel,
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  margin-bottom: 24px;
+  overflow: hidden;
+  border: 0px;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.site-collapse-custom-panel .ant-collapse-header {
+  color: rgba(0, 0, 0, 0.85) !important;
+  font-family: ttnorms;
+  font-weight: 500;
+}
+
+.site-collapse-custom-panel-meeting > .ant-collapse-header {
+  background-color: #363636 !important;
+  color: #fff !important;
+}
+
+.site-collapse-custom-panel-meeting {
+  margin-bottom: 1rem;
+  border: none !important;
+}
+
+.site-collapse-custom-panel-meeting .ant-collapse-content-box {
+  padding: 0;
+}
+/*# sourceMappingURL=index.css.map */

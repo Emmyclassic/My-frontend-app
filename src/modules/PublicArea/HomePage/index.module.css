@@ -1,0 +1,40 @@
+/*
+0 - 600px phone
+600px - 900px  Tablet Protraits
+900px - 1200px  Tablet Landscape
+1200px - 1800 current style apply
+1800+ Big desktop
+*/
+/*
+Breakpoint aurgument
+- Phone
+- Tablet-protrait
+- Tablet-landscape
+- big Desktop
+
+*/
+.main {
+  background-color: #f4f5f9;
+  padding: 80px 100px;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 3rem 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.BackDrop {
+  background-color: rgba(0, 0, 0, 0.679);
+  height: 100%;
+  left: 0;
+  left: 0;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+/*# sourceMappingURL=index.module.css.map */

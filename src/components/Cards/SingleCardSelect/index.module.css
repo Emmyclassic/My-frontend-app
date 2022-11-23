@@ -1,0 +1,234 @@
+/*
+0 - 600px phone
+600px - 900px  Tablet Protraits
+900px - 1200px  Tablet Landscape
+1200px - 1800 current style apply
+1800+ Big desktop
+*/
+/*
+Breakpoint aurgument
+- Phone
+- Tablet-protrait
+- Tablet-landscape
+- big Desktop
+
+*/
+.cardList_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .cardList_container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardList_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.templateList {
+  cursor: pointer;
+  margin-bottom: 2rem;
+  margin-right: 2%;
+  width: 32%;
+}
+
+.templateContainer_title {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.templateList_img {
+  border-radius: 20px;
+  height: 130px;
+  width: 100%;
+}
+
+.templateList:nth-child(3n + 0) {
+  margin-right: 0;
+}
+
+.templateList_content {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.templateList_content_desc {
+  color: #5c6574;
+  margin: auto;
+  width: 50%;
+}
+
+.templateList_content_title {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.ticketContainer {
+  background: #f8f7fa 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  opacity: 1;
+  padding: 2rem;
+}
+
+.ticketContainer_title {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.ticketContainer_para {
+  border-bottom: 1px solid #bac1ca;
+  color: #5c6574;
+  font-family: ttnorms;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+}
+
+.ticketContainer_sec {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+.pollList {
+  background-color: #363636;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: ttnorms;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+  opacity: 1;
+  width: 100%;
+}
+
+.resourceItem {
+  background: #e2e2e7 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e2e7;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: ttnorms;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+  opacity: 1;
+  padding: 1.3rem;
+  width: 100%;
+}
+
+.cardContent {
+  color: #5c6574;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  width: 100%;
+}
+
+.iconBox {
+  margin-right: 10px;
+}
+
+.resourceName {
+  font-size: 1.3rem;
+}
+
+.cardAmount {
+  color: #09974d;
+  display: block;
+}
+
+.radioBtn {
+  color: #fff;
+}
+
+.resourceTitle {
+  font-family: ttnorms;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+
+.resourceItem_selected {
+  background-color: #2f89fe;
+  border: none;
+  color: #fff;
+}
+
+.resourceItem_selected > * {
+  color: #fff;
+}
+
+.toggle_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.toggle_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 14px 12px;
+  background-color: #eeeef5;
+  border: none;
+  width: 48%;
+  height: 100%;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.toggle_box_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: capitalize;
+  border-radius: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 14px 12px;
+  background-color: #ef3125;
+  border: none;
+  width: 48%;
+  height: 100%;
+  cursor: pointer;
+  color: white;
+}
+/*# sourceMappingURL=index.module.css.map */

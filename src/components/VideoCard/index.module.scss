@@ -1,0 +1,44 @@
+.container {
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  position: relative;
+}
+
+.videoContainer_wrap {
+  position: relative;
+  &_iconBox {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    transition: all 0.2s ease-out;
+    width: 4rem;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    &_icon {
+      position: relative;
+      z-index: 77;
+    }
+  }
+}
+.removeIcon {
+  color: #6d76834d;
+}
+.removeIcon:hover {
+  color: #ef3125;
+}
+.removeIconBox {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  z-index: 99999;
+}

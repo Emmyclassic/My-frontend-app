@@ -1,0 +1,43 @@
+.social_btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #175fff;
+  border: none;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+  padding: 0.8rem;
+}
+
+.social_btn_bg {
+  background-color: #da3a25;
+}
+
+.social_name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.social_icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+}
+/*# sourceMappingURL=Google.module.css.map */

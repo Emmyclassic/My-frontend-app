@@ -1,0 +1,177 @@
+@import "../../../styles/abstracts/mixins";
+.layout {
+  border-bottom: 1px solid #dbe2e8;
+  box-shadow: inset 0 0 0 0 #dbe2e8;
+}
+
+.report_wrapper {
+  background: url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940344/apems/group_cn9j34.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+  margin: 10% auto;
+  position: relative;
+  text-align: center;
+  width: 40%;
+  @include respond(phone) {
+    width: 90%;
+  }
+}
+
+.report_download_btn {
+  background-color: #09974d1c;
+  border: none;
+  border-radius: 48px;
+  color: #09974d;
+  font-weight: 600;
+  padding: 1rem 2rem;
+}
+.report_download_title {
+  font-size: 5rem;
+  font-weight: 800;
+  @include respond(phone) {
+    font-size: 4.2rem;
+  }
+}
+.report_download_summary {
+  color: #030111;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-bottom: 3rem;
+  opacity: 1;
+  @include respond(phone) {
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+
+.download_meeting {
+  background-color: #d5d5d5;
+  @include respond(phone) {
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 3rem;
+  }
+}
+.download_meeting_wrapper {
+  background-color: #f5f7f8;
+  margin-top: 6.5rem;
+  padding: 0.5rem;
+  width: 80%;
+  @include respond(phone) {
+    background-color: #fff;
+  }
+}
+.download_meeting::placeholder {
+  color: #5c6574;
+  font-weight: bold;
+  @include respond(phone) {
+    color: #e2e5ec;
+  }
+}
+.download_meeting_btn > button {
+  background-color: yellow !important;
+}
+.blur_block_red,
+.blur_block_green {
+  background: #ffa640 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  filter: blur(30px);
+  height: 30px;
+  left: 20%;
+  opacity: 1;
+  position: absolute;
+  top: 80%;
+  width: 30px;
+  @include respond(phone) {
+    display: none;
+  }
+}
+.blur_block_green {
+  background: #09974d 0% 0% no-repeat padding-box;
+  filter: blur(30px);
+  left: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 10%;
+}
+
+.searh_event_para {
+  font-weight: bold;
+  margin-top: 7rem;
+  @include respond(phone) {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+
+.search_event_link {
+  color: #ef3125;
+  font-weight: bold;
+}
+.horizontal_block_box {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.horizontal_block {
+  align-items: center;
+  background-color: #dedee0;
+  display: flex;
+  height: 2px;
+  width: 50px;
+}
+.search_event_subtext {
+  color: #030111;
+}
+// .search_event_subtext::after {
+//     content: "";
+//     background-color: #dedee0;
+//     height: 2px;
+//     width: 50px;
+//     display: inline-block;
+// }
+
+.meeting__btn {
+  background: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0 0 40%;
+  padding: 2rem;
+  position: relative;
+  z-index: 99;
+  @include respond(phone) {
+    align-self: center;
+  }
+}
+.meeting__btn::after {
+  background-color: rgba(217, 11, 44, 0.85);
+  border-radius: 5px;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 1ms ease-in-out;
+  width: 0%;
+  z-index: -10;
+}
+.meeting__btn__text {
+  position: relative;
+  z-index: 999;
+}
+.meeting__btn:hover::after {
+  width: 100%;
+}

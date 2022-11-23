@@ -1,0 +1,230 @@
+@import "../../../styles/abstracts/mixins";
+
+.layout {
+  border-bottom: 1px solid #dbe2e8;
+  box-shadow: inset 0 0 0 0 #dbe2e8;
+}
+
+.event__wrapper {
+  margin: auto;
+  margin-bottom: 4rem;
+  margin-top: 15rem;
+  width: 80%;
+  @include respond(phone) {
+    width: 100%;
+  }
+}
+
+.event_wrapper_body {
+  margin-top: 5rem;
+  @include respond(phone) {
+    display: none;
+  }
+}
+.event__wrapper_header {
+  background-color: #e6eaed;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  width: 100%;
+  @include respond(phone) {
+    flex-direction: column;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+}
+.event__wrapper_input {
+  position: relative;
+  @include respond(phone) {
+    position: relative;
+  }
+}
+.event__search_input {
+  background-color: #e6eaed;
+  border: none;
+  border-radius: 50px;
+  display: block;
+  margin-right: auto;
+  outline: none;
+  padding: 15px;
+  padding-left: 45px;
+  width: 75%;
+  @include respond(phone) {
+    width: 100%;
+  }
+}
+.event__search_input::placeholder {
+  color: #6d7683;
+  font-family: bold;
+  font-size: 1.6rem;
+  letter-spacing: 0.4px;
+}
+.event__search_btn {
+  background-color: #000;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  width: 20%;
+  @include respond(tab-land) {
+    font-size: 14px;
+  }
+  @include respond(phone) {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+.search__icon_box {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  @include respond(phone) {
+  }
+}
+.event__list__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5rem;
+  @include respond(tab-land) {
+  }
+  @include respond(phone) {
+  }
+}
+
+.event__list__card {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  display: block;
+  display: flex;
+  flex: 0 0 23%;
+  flex-direction: column;
+  height: 359px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+  z-index: 0;
+  @include respond(phone) {
+    width: 100%;
+  }
+}
+
+.mobile__wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+  padding-top: 40px;
+  border-top: 5px solid #f04338;
+  margin-top: 50px;
+  @include respond(phone) {
+    display: block;
+  }
+}
+.mobile__list__box__wrapper {
+  // overflow-x: scroll;
+  // &::-webkit-scrollbar-thumb {
+  //   background-color: #ff4040;
+  // }
+  // &::-webkit-scrollbar {
+  //   width: 0px;
+  // }
+
+  margin-bottom: 40px;
+}
+.mobile__list__box {
+  display: flex;
+  justify-content: space-between;
+  & > div {
+    width: 90% !important;
+    margin: 0 15px;
+    margin-bottom: 10px;
+  }
+}
+
+.event__mobile__box1{
+   display: flex;
+  justify-content: space-between;
+  & > div {
+    width: 90% !important;
+    margin: 0 15px;
+    margin-bottom: 10px;
+  }
+}
+.paginateBox {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.event__desktop {
+  display: flex;
+  @include respond(phone) {
+    display: none;
+  }
+}
+.event__mobile {
+  display: none;
+  @include respond(phone) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.event_tracker {
+  width: 75%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  span {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #787878;
+    display: block;
+    border-radius: 30px;
+    // background-color: #EF3125;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.event_tracker {
+  width: 60%;
+  margin: 15px auto 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  span {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #787878;
+    display: block;
+    border-radius: 30px;
+    // background-color: #EF3125;
+    margin-right: 10px;
+  }
+}
+
+.mobile_scroll {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+}
+.event__mobile__box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 840%;
+}

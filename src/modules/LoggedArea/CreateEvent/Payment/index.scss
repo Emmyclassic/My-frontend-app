@@ -1,0 +1,28 @@
+.ticketType {
+  align-items: center;
+  border: 1px solid #0b054782;
+  color: #0b054782;
+  display: flex;
+  flex: 0 0 50%;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.ticketType:first-child {
+  border-right: 1px solid #0b054782;
+}
+.ticketType:last-child {
+  border-left: none;
+}
+.ticketType-mcard-item_selected {
+  background-color: #2f89fe;
+  color: #fff;
+}
+
+.form__input_donation {
+  width: 100%;
+}
+
+.form__input_currency {
+  outline: none;
+  border-right: none;
+}

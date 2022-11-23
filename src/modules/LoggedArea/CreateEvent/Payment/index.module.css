@@ -1,0 +1,262 @@
+.main {
+  font-family: tttnorms;
+  width: 40%;
+}
+
+.main_container {
+  margin-bottom: 10rem;
+  text-align: center;
+}
+
+.main_container_imgbox {
+  width: 25rem;
+}
+
+.main_container_title {
+  color: #030111;
+  font-family: ttnorms;
+  font-size: 1.8rem;
+}
+
+.main_container_content {
+  color: #5c6574;
+  font-family: ttnorms;
+  font-size: 1.5rem;
+}
+
+.main_container_btnContainer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+.main_container_btnContainer_btn {
+  background-color: #fff;
+  font-family: ttnorms;
+  font-weight: 500;
+  outline: none;
+}
+
+.main_container_btnContainer_btn_icon {
+  margin-right: 1.5rem;
+}
+
+.main_container_btnContainer_res {
+  border: 1px solid #09974d;
+  border-radius: 5px;
+  color: #09974d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1.5rem;
+  padding: 1.5rem 2rem;
+}
+
+.main_container_btnContainer_elec {
+  border: none;
+  text-decoration: underline;
+}
+
+.modalResolution_formWrapper {
+  width: 100%;
+}
+
+.modalResolution_badge {
+  background-color: #09974d52;
+  border-radius: 5px;
+  color: #09974d;
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+}
+
+.modalResolution_header {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.form__input_submit_request {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  padding: 1.4rem;
+  width: 100%;
+}
+
+.form__input_wrap {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form__input_inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.form__input_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__input_label {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5c6574;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.form__input {
+  background-color: #eeeef5;
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #5c6574;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #5c6574;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #5c6574;
+}
+
+.form__input::placeholder {
+  color: #5c6574;
+}
+
+.form__input_inline > .form__input_box:first-child {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 3rem;
+  width: 60%;
+}
+
+.input__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__input_date {
+  margin-right: 1rem;
+  width: 55%;
+}
+
+.form__input_time {
+  margin-right: 1rem;
+  width: 40%;
+}
+
+.settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.settingWrapper {
+  position: relative;
+}
+
+.settingList {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+}
+
+.switchContainer {
+  margin-right: 1.5rem;
+}
+
+.switchTitle {
+  color: #000;
+  font-family: ttnorms;
+}
+
+.form__label_text {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 1rem;
+}
+
+.form__input_setting {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.form__label_title {
+  color: #000;
+  font-family: ttnorms;
+  margin-top: -1rem;
+}
+
+.form__label_content {
+  color: #acb3bd;
+}
+
+.poll_btn {
+  background-color: #5c6574;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  padding: 2rem 4rem;
+}
+
+.optWrapper,
+.bankWrapper {
+  margin-top: 2rem;
+}
+
+.otpHeader {
+  font-family: ttnorms;
+  font-weight: 600;
+}
+
+.optLabel {
+  font-family: ttnorms;
+  font-size: 13px;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.sampleNumber {
+  color: #ef3125;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.form__input_otp {
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=index.module.css.map */

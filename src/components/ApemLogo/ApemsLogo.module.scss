@@ -1,0 +1,19 @@
+.header__logo_img {
+  width: 150px;
+}
+.apLogoBox {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  bottom: 10%;
+  display: flex;
+  height: 4rem;
+  justify-content: center;
+  left: 2%;
+  position: absolute;
+  width: 4rem;
+}
+.apLogoBox svg {
+  height: 20px;
+  width: 20px;
+}

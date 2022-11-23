@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 5px 10px;
+  position: absolute;
+}
+
+.container_text {
+  color: var(--color-success);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 12px;
+}
+.container_icon {
+  color: var(--color-success);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

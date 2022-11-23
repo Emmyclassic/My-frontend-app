@@ -1,0 +1,60 @@
+@import "../../styles/abstracts/mixins";
+.meeting__btn {
+  background: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: "cover";
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0 0 40%;
+  padding: 2rem;
+  position: relative;
+  z-index: 99;
+  @include respond(phone) {
+    align-self: center;
+    background: linear-gradient(
+        to right bottom,
+        rgb(239, 49, 37),
+        rgb(239, 49, 37)
+      ),
+      url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+    margin-top: 1rem;
+    padding: 2rem 5rem;
+    width: 100%;
+    border-radius: 10px;
+    &:hover{
+       background-color: rgba(217, 11, 44, 0.85)!important;
+    }
+  }
+}
+.meeting__btn::after {
+  background-color: rgba(217, 11, 44, 0.85);
+  border-radius: 5px;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -10;
+  @include respond(tab-land) {
+    background-color: #030111;
+    &:hover {
+      background-color: rgba(217, 11, 44, 0.85);
+    }
+  }
+}
+.meeting__btn__text {
+  position: relative;
+  z-index: 999;
+}
+// .meeting__btn:hover::after {
+//   width: 100%;
+// }

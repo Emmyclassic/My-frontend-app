@@ -1,0 +1,354 @@
+.form__input_submit_request {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  padding: 1.4rem;
+  width: 100%;
+}
+.form__input_wrap {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input_label {
+  align-items: center;
+  color: #030111;
+  display: flex;
+  font-family: ttnorms;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.form__input {
+  background-color: #eeeef5;
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  flex: 1;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1.2rem;
+  width: 100%;
+}
+.form__input::placeholder {
+  color: #5c6574;
+  font-family: ttnorms;
+  font-weight: 300;
+}
+.form__input_inline > .form__input_box {
+  justify-content: space-between;
+  width: 50%;
+}
+.input__date {
+  display: flex;
+  justify-content: space-between;
+}
+.form__input_date {
+  margin-right: 1rem;
+  width: 55%;
+}
+.form__input_time {
+  margin-right: 1rem;
+  width: 40%;
+}
+.settings {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.settingWrapper {
+  position: relative;
+  font-family: ttnorms;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.settingList {
+  //   top: 30px;
+}
+.switchContainer {
+  margin-right: 1.5rem;
+}
+.switchTitle {
+  color: #000;
+  font-family: ttnorms;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.form__label_text {
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.form__input_setting {
+  align-self: flex-start;
+}
+.form__label_title {
+  color: #000;
+  font-family: ttnorms;
+  margin-top: -1rem;
+}
+.form__label_content {
+  color: #acb3bd;
+  font-family: ttnorms;
+  font-weight: 300;
+}
+.input_box {
+  display: flex;
+}
+.input_box_trash {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.btnGroup_item {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 1rem 1.5rem;
+}
+.btnGroup_item_bg {
+  background-color: #09974d;
+  color: #fff;
+  margin-right: 2rem;
+}
+.uploadIcon {
+  color: #09974d;
+}
+.btnGroup_item_noBg:hover {
+  background-color: #09974d;
+  .uploadIcon {
+    color: #fff;
+  }
+}
+.resolutionSubBtn {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.resolutionSubBtn_left {
+  margin-right: auto;
+}
+.createStatus {
+  color: #09974d;
+  font: normal normal medium ttnorms;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.handleEmoji {
+  display: inline-block;
+  height: 30px;
+  margin-left: 3px;
+  margin-top: 8px;
+  position: relative;
+  width: 30px;
+}
+.statusRes {
+  margin-left: -30px;
+}
+.statusRes::placeholder {
+  padding-left: 20px;
+}
+
+.validation__error {
+  color: #ff4040;
+  font-family: ttnorms;
+}
+
+.btnWrapper {
+  display: flex;
+  //justify-content: space-between;
+  gap: 2rem;
+}
+
+// .input_box {
+//   background-color: #eeeef5;
+//   border: 1px solid #ced0d5;
+// }
+
+.form__input_candidate::placeholder {
+  padding-left: 20px;
+}
+
+.handlewave {
+  position: absolute;
+}
+
+.topCandidate {
+  display: flex;
+}
+.form__label_title {
+  color: #000;
+  font-family: ttnorms;
+  font-weight: 500;
+  margin-top: -1rem;
+}
+.bio {
+  display: flex;
+  gap: 10px;
+}
+
+.cand_photo {
+  width: 50%;
+}
+.cand_text_wrap {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.editCandLabel {
+  font-family: ttnorms;
+  font-weight: 300;
+}
+.cand_text {
+  resize: none;
+
+  color: #000;
+  font-family: ttnorms;
+  font-size: 15px;
+  font-weight: 300;
+  border: 1px solid #ced0d5;
+  width: 100%;
+  outline: none;
+}
+
+.cand_text::placeholder {
+  padding: 10px;
+  color: #ced0d5;
+  font-family: ttnorms;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.cand_text:hover {
+  outline: none;
+  border: 1px solid #ced0d5;
+}
+
+.submitprof {
+  margin-top: 10px;
+}
+.electionWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.candidInput {
+  border: none;
+  outline: none;
+  width: 60%;
+}
+.candidInput:focus {
+  outline: none !important;
+}
+.candidInput::placeholder {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: ttorms;
+  font-weight: 300;
+}
+.btnGray {
+  background-color: #5c6574;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 500;
+  font-family: ttnorms;
+  outline: none;
+  padding: 2.5rem 6rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.btnGray:hover {
+  background-color: #ef3125;
+  color: #fff;
+}
+
+.leftForm {
+  width: 50%;
+}
+.rightForm {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.candidWrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #dfe5ec;
+  border-radius: 6px;
+  padding: 8px;
+  padding-left: 15px;
+  margin-bottom: 14px;
+  width: 100%;
+}
+
+.candidPhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.candidName {
+  font-family: ttnorms;
+  font-weight: 400;
+  display: inline-block;
+  text-align: left;
+}
+
+.candInfoCont {
+  font-family: ttnorms;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+.editProf {
+  color: red;
+  display: inline-block;
+  text-decoration: underline;
+  font-size: 12px;
+  font-style: 400;
+  cursor: pointer;
+}
+
+.headerProfile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.candidProfile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.candidProfile:hover {
+  opacity: 0.3;
+}
+.candidName {
+  display: flex;
+}
+.imageCont {
+  position: relative;
+}
+
+.removeImageic {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}

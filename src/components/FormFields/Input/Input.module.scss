@@ -1,0 +1,16 @@
+@import "../../../styles/abstracts/mixins";
+.meeting__input {
+  border: none;
+  color: rgba(0, 0, 0, 0.7);
+  flex: 0 0 60%;
+  outline: none;
+  padding: 10px;
+  @include respond(phone) {
+    padding: 2rem 15px;
+    border-radius: 10px;
+  }
+}
+
+.meeting__input::placeholder {
+  color: #5c6574;
+}

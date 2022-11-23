@@ -1,0 +1,24 @@
+@import "../../../styles/abstracts/mixins";
+.main {
+  background-color: #f4f5f9;
+  padding: 80px 100px;
+  // z-index: -5;
+  position: relative;
+  @include respond(phone) {
+    padding: 3rem 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.BackDrop {
+  background-color: rgba(0, 0, 0, 0.679);
+  height: 100%;
+  left: 0;
+
+  left: 0;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}

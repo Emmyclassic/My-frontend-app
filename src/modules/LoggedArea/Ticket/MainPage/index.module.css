@@ -1,0 +1,199 @@
+.main {
+  margin-top: 2.5rem;
+  min-height: 50vh;
+  width: 100rem;
+}
+
+@media (max-width: 1040px) {
+  .main {
+    width: 100%;
+  }
+}
+
+.top_session {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 680px) {
+  .top_session {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.top_session_right {
+  height: 5rem;
+  position: relative;
+  width: 38%;
+}
+
+@media (max-width: 680px) {
+  .top_session_right {
+    margin-top: 2rem;
+    width: 100%;
+  }
+}
+
+.top_session_right input {
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 5px;
+  height: 100%;
+  padding-left: 4.4rem;
+  width: 100%;
+}
+
+.top_session_right input::-webkit-input-placeholder {
+  border-left: 1px solid #5c6574;
+  color: #5c6574;
+  font: normal normal medium 16px/19px Gilroy;
+  letter-spacing: 0.48px;
+  opacity: 0.56;
+  padding-left: 1.4rem;
+}
+
+.top_session_right input:-ms-input-placeholder {
+  border-left: 1px solid #5c6574;
+  color: #5c6574;
+  font: normal normal medium 16px/19px Gilroy;
+  letter-spacing: 0.48px;
+  opacity: 0.56;
+  padding-left: 1.4rem;
+}
+
+.top_session_right input::-ms-input-placeholder {
+  border-left: 1px solid #5c6574;
+  color: #5c6574;
+  font: normal normal medium 16px/19px Gilroy;
+  letter-spacing: 0.48px;
+  opacity: 0.56;
+  padding-left: 1.4rem;
+}
+
+.top_session_right input::placeholder {
+  border-left: 1px solid #5c6574;
+  color: #5c6574;
+  font: normal normal medium 16px/19px Gilroy;
+  letter-spacing: 0.48px;
+  opacity: 0.56;
+  padding-left: 1.4rem;
+}
+
+.top_session_right input:focus {
+  outline: none;
+}
+
+.top_session_left {
+  font: normal normal medium 16px/30px TT Norms Pro;
+  width: 58%;
+}
+
+@media (max-width: 680px) {
+  .top_session_left {
+    width: 100%;
+  }
+}
+
+.top_session_search_icon {
+  left: 14px;
+  opacity: 0.5;
+  position: absolute;
+  top: 16px;
+}
+
+@media (max-width: 680px) {
+  .top_session_search_icon {
+    top: 13px;
+  }
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  margin-top: 2.5rem;
+  width: 100%;
+}
+
+.table th {
+  text-align: left;
+}
+
+.table tbody tr {
+  background-color: #f7f8fa;
+  border-radius: 6px;
+  height: 40px;
+}
+
+.table thead tr th {
+  padding: 0 2rem;
+}
+
+.table tbody tr td {
+  padding: 2rem;
+}
+
+.table tbody tr td:first-child {
+  border-radius: 20px 0 0 20px;
+}
+
+.table tbody tr td:last-child {
+  border-radius: 0 20px 20px 0;
+}
+
+.table .ticket_title {
+  color: #09974d;
+}
+
+.table .ticket_desc {
+  font: normal normal medium 16px/19px Gilroy;
+  letter-spacing: 0.48px;
+}
+
+.table .three_dots {
+  color: #5c6574;
+  cursor: pointer;
+}
+
+.table .three_dots:hover {
+  color: #f16c65;
+}
+
+.menu_container {
+  background: #fff 0% 0% no-repeat padding-box;
+  border: 1px solid #e6eaed;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 15px #edeef1;
+          box-shadow: 0 2px 15px #edeef1;
+  opacity: 1;
+  padding: 0.5rem 2rem;
+}
+
+.menu_item {
+  letter-spacing: 0.48px;
+  opacity: 0.56;
+  padding: 1.5rem 2rem;
+}
+
+.menu_item_delete {
+  color: #f16c65;
+  letter-spacing: 0.48px;
+  padding: 1.5rem 2rem;
+}
+
+.table_wrapper {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.ml_1 {
+  margin-left: 1.25rem;
+}
+/*# sourceMappingURL=index.module.css.map */

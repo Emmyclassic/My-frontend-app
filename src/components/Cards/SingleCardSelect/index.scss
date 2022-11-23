@@ -1,0 +1,140 @@
+.attendContainer {
+  display: flex;
+
+  margin-top: 1.5rem;
+  width: 10%;
+}
+.cardList_item {
+  padding: 1.5rem;
+}
+.card-item {
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-right: 2%;
+  padding: 1rem 1.5rem;
+  width: 32%;
+}
+.card-item:nth-child(3n + 0) {
+  margin-right: 0;
+}
+.card-item_item_icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.card-item_item_title {
+  font-family: ttnorms;
+  font-size: 1.5rem;
+}
+.radio-card-item_item_title {
+  margin-right: auto;
+}
+.radio-card-item-election_item_title {
+  position: absolute;
+  bottom: 0;
+  left: 7px;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  width: 60%;
+}
+
+.radio-card-item-election_img_item_wrap {
+  position: relative;
+}
+.card-item_selected {
+  border: 1px solid #ef3125;
+  padding: 1rem 1.5rem;
+}
+.card-item_selected > span:first-child {
+  color: #ef3125;
+}
+
+.voteCandidVote {
+  display: block;
+  background-color: #0d974d;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+}
+.templateList_img {
+  background-position: center;
+  background-size: cover;
+}
+.candidtext {
+  margin-right: auto;
+}
+
+.gender-card-item {
+  background: #eeeef5;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-right: 2%;
+  padding: 1rem 1.5rem;
+  width: 32%;
+}
+.gender-card-item_selected {
+  background: #ef3125;
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+.radio-card-item {
+  align-items: center;
+  border: 1px solid#6D7683;
+  border-radius: 5px;
+  color: #6d7683;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.radio-card-item_icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.radio-card-item_selected {
+  border: 1px solid #0d974d;
+  color: #0d974d;
+}
+
+.radio-card-item-election {
+  width: 30%;
+  position: relative;
+}
+
+.resolutionTab {
+  align-items: center;
+  border: 1px solid #363636;
+  color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex: 0 0 50%;
+  justify-content: center;
+  padding: 1rem 0;
+  font-family: ttnorms;
+}
+.resolutionTab:first-child {
+  border-right: 1px solid #363636;
+}
+.resolutionTab:last-child {
+  border-left: none;
+}
+.resolutionTab-mcard-item_selected {
+  background-color: #363636;
+  color: #fff;
+}
+.disableSelect {
+  // pointer-events: none;
+}

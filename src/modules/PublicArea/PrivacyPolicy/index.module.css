@@ -1,0 +1,74 @@
+.container_wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content_container {
+  padding: 1.5rem 0 4rem;
+  width: 70rem;
+}
+
+@media (max-width: 860px) {
+  .content_container {
+    padding: 1.5rem 2rem 4rem;
+    width: 100%;
+  }
+}
+
+.content_title {
+  font-weight: 600;
+  margin-top: 0.85rem;
+}
+
+.collapse_content {
+  font-size: 1.15rem;
+  padding-left: 1rem;
+}
+
+.collapse_title {
+  font-weight: 600;
+}
+
+.collapse_bullet_option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.85rem;
+}
+
+.container_bullet {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.6rem;
+}
+
+.collapse_bullet {
+  background-color: #ef3125;
+  border-radius: 50%;
+  display: inline-block;
+  height: 4px;
+  margin-right: 0.5rem;
+  width: 4px;
+}
+
+.margin_bottom {
+  margin-bottom: 0.85rem;
+}
+/*# sourceMappingURL=index.module.css.map */

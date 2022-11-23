@@ -1,0 +1,14 @@
+.title {
+  text-align: center;
+
+  h1 {
+    line-height: 45px !important;
+    margin: 30px;
+    margin-bottom: 0;
+  }
+}
+.modal {
+  .ant-modal-body {
+    padding: 0 !important;
+  }
+}

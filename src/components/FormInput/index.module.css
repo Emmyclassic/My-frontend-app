@@ -1,0 +1,65 @@
+.form__input_wrap {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.form__input_inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__input_inline > .form__input_box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+}
+
+.form__input_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__input {
+  border: 1px solid #ced0d5;
+  outline: none;
+  padding: 1.5rem;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #edeef1;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #edeef1;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #edeef1;
+}
+
+.form__input::placeholder {
+  color: #edeef1;
+}
+
+.inputCount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.validation__error {
+  color: #ff4040;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,65 @@
+.documentFooter {
+  background-color: #2b2b2b;
+  width: 100%;
+  max-height: 60rem;
+  z-index: 9999;
+  position: absolute;
+  bottom: 0;
+  height: 40%;
+  padding: 4rem;
+}
+.documentHeader {
+  display: flex;
+}
+
+.documentHeader_left {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+.mainTitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: ttnorm;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  display: inline-block;
+}
+
+.documentCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.subTitle,
+.documentCardTitle {
+  color: #8d8d8d;
+  font-family: ttnorms;
+  font-family: ttnorms;
+  font-weight: 400;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+.uploadImg {
+  width: 50px;
+}
+.iconContainer {
+  padding: 5rem;
+  background-color: #363636;
+  border: 1px solid #9999992b;
+  border-radius: 5px;
+}
+.documentCloseIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #363636;
+}
+
+.documentCard_list {
+  cursor: pointer;
+  //flex-basis: 20%;
+}

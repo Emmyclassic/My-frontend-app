@@ -1,0 +1,137 @@
+@import "../../../styles/abstracts/mixins";
+.header__nav {
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  margin-top: 1%;
+  padding: 1rem;
+  padding: 1rem;
+  position: absolute;
+  width: 95%;
+  z-index: 99999;
+  @include respond(tab-land) {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .nav__link_black{
+    color: #000;
+  }
+  @include respond(phone) {
+    margin-top: 3%;
+    width: 100%;
+  }
+  &__left__mobile {
+    display: none;
+    @include respond(phone) {
+      display: flex;
+      flex: 1;
+      margin-right: auto;
+      width: 100%;
+    }
+  }
+
+  &__left {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    margin-left: 7rem;
+    margin-right: auto;
+    @include respond(phone) {
+      display: none;
+    }
+  }
+  &__right {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3rem;
+    @include respond(tab-land) {
+      flex-direction: column;
+      // display: none;
+      align-items: center;
+      margin-right: 1rem;
+    }
+    @include respond(phone) {
+      // align-items: center;
+      // margin-right: 1rem;
+    }
+    // &:nth-child(8){
+    //   display: none;
+    //   border: 2px solid red;
+    // }
+  }
+  &__link {
+    margin-right: 0.5rem;
+  }
+}
+.nav__menu {
+  display: none;
+  @include respond(tab-land) {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  @include respond(phone) {
+    // align-content: center;
+    // display: flex;
+    // justify-content: center;
+  }
+}
+
+.nav__link:not(:last-child) {
+  margin-right: 2rem;
+}
+.nav__link__signup {
+  background-color: var(--color-dark-danger);
+  border-radius: 3.3rem;
+  display: block;
+  padding: 1rem 2.4rem;
+  position: relative;
+  z-index: 109990;
+}
+
+.nav__link__signup::after {
+  background-color: #000;
+  border-radius: 3.3rem;
+  content: "";
+  height: 100%;
+  opacity: 0;
+  padding: 1rem 2.4rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 1s ease-in-out;
+  width: 0;
+}
+.link__text {
+  position: relative;
+  z-index: 99;
+}
+.nav__link__signup:hover::after {
+  border-radius: 3.3rem;
+  height: 100%;
+  opacity: 1;
+  padding: 1.3rem 2.5rem;
+  width: 103%;
+}
+// .nav__link__language {
+//   border: 1px solid #fff;
+//   display: block;
+//   padding: 5px 1.4rem;
+//   border-radius: 7px;
+// }
+
+.nav__link {
+  @include respond(tab-land) {
+    display: none;
+  }
+  @include respond(phone) {
+    // display: none;
+  }
+}
+.nav_link_underline:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+}

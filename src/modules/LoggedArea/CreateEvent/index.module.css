@@ -1,0 +1,27 @@
+.stepOne {
+  font-family: ttnorms;
+  margin-top: 2rem;
+  width: 55%;
+}
+
+.containerNav_iconBox {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #acb3bd;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30px;
+  justify-content: center;
+  margin-bottom: 9rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  width: 30px;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,51 @@
+.container_badge {
+  background-color: #f2faf6;
+  border-radius: 10px;
+  font-family: ttnorms;
+  color: #09974d;
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.container_header {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+
+  padding-bottom: 1rem;
+}
+.mainHeader {
+  border-bottom: 1px solid #e2e5ec;
+}
+.container_formWrapper {
+  margin-top: 1.5rem;
+  overflow-y: auto;
+  height: 83vh;
+  position: relative;
+}
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.paraBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.removeTrash {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deleteIcon {
+  font-family: ttnorms;
+  font-weight: 500;
+  font-size: 14px;
+}

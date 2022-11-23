@@ -1,0 +1,225 @@
+/*
+0 - 600px phone
+600px - 900px  Tablet Protraits
+900px - 1200px  Tablet Landscape
+1200px - 1800 current style apply
+1800+ Big desktop
+*/
+/*
+Breakpoint aurgument
+- Phone
+- Tablet-protrait
+- Tablet-landscape
+- big Desktop
+
+*/
+.second__main {
+  background-color: #fff;
+  position: relative;
+  z-index: 5;
+}
+
+@media (max-width: 600px) {
+  .second__main {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.second__main__wrapper {
+  margin: auto;
+  padding-top: 50px;
+  width: 70%;
+}
+
+@media (max-width: 1200px) {
+  .second__main__wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .second__main__wrapper {
+    width: 100%;
+  }
+}
+
+.second__main__header {
+  margin: auto;
+  margin-bottom: 60px;
+  text-align: center;
+  width: 60%;
+}
+
+@media (max-width: 1200px) {
+  .second__main__header {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .second__main__header {
+    width: 80%;
+  }
+}
+
+.second__main__text__box {
+  color: #646464;
+  display: block;
+  font-size: 15px;
+  line-height: 1.9;
+  position: relative;
+  text-align: center;
+}
+
+.second__main__text__box::after {
+  border: 1px dashed #ef3125;
+  bottom: -30%;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 100px;
+}
+
+@media (max-width: 600px) {
+  .second__main__text__box::after {
+    left: 20%;
+    width: 150px;
+  }
+}
+
+.second__main__header__title {
+  color: #030111;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .second__main__header__title {
+    font-size: 30px;
+    line-height: 1.6;
+  }
+}
+
+.videoContainer {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940357/apems/virtualEvent_pl9pmi.webp");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940357/apems/virtualEvent_pl9pmi.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.videoContainer_wrap {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #da2c1f;
+  border-radius: 50%;
+  content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  -webkit-transition: border 0.2s ease-out;
+  transition: border 0.2s ease-out;
+  width: 8rem;
+}
+
+.videoContainer_wrap_iconBox {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 6rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 6rem;
+}
+
+.videoContainer_wrap_iconBox_icon {
+  position: relative;
+  z-index: 77;
+}
+
+.videoContainer:hover .videoContainer_wrap {
+  border: none;
+}
+
+.videoContainer:hover .videoContainer_wrap_iconBox {
+  background-color: #da2c1f;
+  border: 2px solid #fff;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+@media (max-width: 1200px) {
+  .videoContainer {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .videoContainer {
+    height: 30rem;
+    background-position: center;
+    background-size: 200%;
+    margin-bottom: 2rem;
+  }
+  .videoContainer_wrap {
+    height: 4rem;
+    width: 4rem;
+  }
+  .videoContainer_wrap_iconBox {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.youtubeContainer {
+  height: 50rem;
+  margin: auto;
+  width: 100%;
+}
+
+.BackDrop {
+  background-color: rgba(0, 0, 0, 0.679);
+  height: 100%;
+  left: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9000000;
+}
+/*# sourceMappingURL=index.module.css.map */

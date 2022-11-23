@@ -1,0 +1,33 @@
+.deletContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30%;
+}
+
+.deleteBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.3rem;
+}
+.deletContainer_img {
+  width: 150px;
+}
+.deleteContent {
+  text-align: center;
+  font-family: ttnorms;
+}
+.topCont {
+  margin-bottom: 2rem;
+}
+
+.deleteHeader {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+.btnWrapper {
+  gap: 3rem;
+  display: flex;
+}

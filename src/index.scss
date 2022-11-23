@@ -1,0 +1,106 @@
+@import "./styles/abstracts/font";
+@import "./styles/base/base";
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+
+// @import "./styles/font";
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget-icon {
+  display: none !important;
+}
+html,
+body {
+  top: 0 !important;
+  font-family: ttnorms !important;
+  min-width: 100vw !important;
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+#zmmtg-root {
+  display: none;
+  background: none;
+}
+
+.video-avatar__avatar {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: flex !important;
+  background-position: center !important;
+  flex-direction: column-reverse;
+  align-items: center;
+  position: relative;
+}
+
+.join-audio-container__btn,
+.joinWindowBtn {
+  background-color: #ff4040 !important;
+  border-color: none !important;
+}
+.video-avatar__avatar-footer {
+  bottom: 100px !important;
+  left: 50px !important;
+}
+.footer__leave-btn {
+  padding: 20px 50px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: #ff4040 !important;
+  border-radius: 20px !important;
+}
+
+.chat-message__text-box--self {
+  background-color: #171717 !important;
+  color: #fff !important;
+}
+
+.ReactVirtualized__List.chat-virtualized-list {
+  height: 100% !important;
+}
+.chat-content__chat-scrollbar {
+  height: 500px !important;
+}
+
+// .chat-message__text-box {
+// }
+.reaction-pop-up-container--give-way-to-meeting-info {
+  top: 100px !important;
+}
+
+@include respond(tab-land) {
+  .desktop_mobile_none {
+    display: none;
+  }
+}
+
+.language {
+  position: relative;
+}
+.language p {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.publishResult .ant-progress-line {
+  width: 90% !important;
+}
+.avatar-uploader-photo {
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 50% !important;
+}
+
+.resolution-drag-handle {
+  cursor: pointer;
+}
+
+
+body > iframe {
+  pointer-events: none;
+}
+.goog-te-menu-frame.skiptranslate {
+  pointer-events: auto !important;
+}

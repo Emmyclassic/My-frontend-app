@@ -1,0 +1,16 @@
+.template_footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.template_contBtd {
+  background-color: #ced0d5;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 1.4rem 3rem;
+}
+
+.template_contBtd_danger {
+  background-color: #ff4040;
+  color: "#fff";
+}

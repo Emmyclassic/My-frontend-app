@@ -1,0 +1,331 @@
+.main {
+  width: 100%;
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+  }
+
+  &_containerLeft {
+    flex: 0 0 48%;
+    &_btnBox {
+      display: flex;
+      justify-content: space-between;
+    }
+    &_btn {
+      background-color: #edeef1;
+      border: none;
+      border-radius: 5px;
+      color: #5c6574;
+      flex: 0 0 46%;
+      outline: none;
+      padding: 1.5rem 2rem;
+      transition: border 0.2s, background-color 0.2s;
+    }
+  }
+  &_containerRight {
+    border: 1px solid #edeef1;
+    flex: 0 0 48%;
+  }
+}
+// .main_containerLeft_form {
+//   margin-top: 3rem;
+// }
+.attendeeBtnType {
+  background-color: #e5f4ed;
+  border: 1px solid #09974d;
+}
+.form__input_wrap {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+.proxy__input_label {
+  font-family: ttnorms;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.form__input {
+  border: 1px solid #ced0d5;
+  padding: 1.5rem;
+}
+.form__input::placeholder {
+  color: #edeef1;
+}
+.form__label_text {
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.form__input_setting {
+  align-self: flex-start;
+}
+.form__label_title {
+  color: #000;
+  font-family: ttnorms;
+  margin-top: -1rem;
+}
+.form__label_content {
+  color: #acb3bd;
+}
+
+.btnGroup {
+  margin-bottom: 3rem;
+}
+.btnGroup_left {
+  display: flex;
+  flex-direction: column;
+}
+.uploadOption {
+  text-align: center;
+  font-family: ttnorms;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  color: #acb3bd;
+}
+
+.uploadOption::before,
+.uploadOption::after {
+  content: "";
+  width: 45%;
+  height: 1px;
+  background-color: #acb3bd;
+}
+
+.uploadOption::before {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+}
+.uploadOption::after {
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+}
+.btnGroup_item {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 1rem 1.5rem;
+}
+
+.btnGroup_item_bg {
+  background-color: #09974d;
+  color: #fff;
+}
+.btnGroup_item_noBg:hover {
+  background-color: #09974d;
+  .uploadIcon {
+    color: #fff;
+  }
+}
+.btnGroup_right {
+  display: flex;
+  justify-content: space-between;
+}
+.form__input_submit_request {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  padding: 1.4rem;
+  width: 100%;
+}
+.tabContent {
+  padding: 10px 15px;
+}
+
+.attendListLabel {
+  align-items: center;
+  border-bottom: 1px solid #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.form__label_content {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form__input_inline {
+  display: flex;
+  gap: 10px;
+}
+
+.form__input_box_1 {
+  width: 70%;
+}
+.form__input_box_2 {
+  width: 30%;
+}
+.form__input {
+  width: 100%;
+  outline: none;
+}
+.form__input_box_3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.validation__error {
+  color: #ff4040;
+}
+
+.proxyHeader {
+  display: flex;
+  background-color: #edeef1;
+  font-family: ttnorms;
+  font-weight: 600;
+  color: #000;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.proxyRow {
+  display: flex;
+  // justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #edeef1;
+  font-family: ttnorms;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.proxyRow__name {
+  color: #5c6574;
+  display: flex;
+}
+
+.proxyRow__span {
+  background-color: #e5f4ed;
+  color: #09974d;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-family: ttnorms;
+  font-weight: 500;
+}
+.proxyRow__action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.proxyRow div {
+  width: 33.3%;
+}
+
+.resolutionTab {
+  background-color: #f7f7f7;
+  font-family: ttnorms;
+  padding: 15px;
+  line-height: 30px;
+  color: #5c6574;
+  border-radius: 5px;
+}
+.stakeHolderBox,
+.stakeHolderPos {
+  border-color: #6d7683;
+  border-width: 0 0 2px;
+  outline: none;
+  outline: 0;
+  background-color: transparent;
+}
+// .stakeHolderBox::placeholder {
+//   color: #2f89fe;
+// }
+
+.form__input_wrap {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  width: 100%;
+}
+
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input_label {
+  align-items: center;
+  color: #030111;
+  display: flex;
+  font-family: ttnorms;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.form__input_inline > .form__input_box {
+  justify-content: space-between;
+  // width: 50%;
+}
+.form__input {
+  background-color: #eeeef5;
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1.3rem;
+}
+.form__input::placeholder {
+  color: #5c6574;
+}
+.form__input_inline > .form__input_box {
+  justify-content: space-between;
+  //width: 50%;
+}
+
+.input_box {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.resolutionSubBtn_left {
+  color: #09974d;
+  display: flex;
+  align-items: center;
+}
+
+.addProxyBox {
+  margin-right: 10px;
+}
+
+.form__input_view {
+  margin-top: 2rem;
+  background: #5c6574 0% 0% no-repeat padding-box;
+  border-radius: 19px;
+  opacity: 1;
+  color: #fff;
+  border-radius: 10px;
+  font-family: ttnorms;
+  border: none;
+  padding: 2rem 6rem;
+  font-weight: 500;
+}
+
+.stalkholder_textarea {
+  border-color: #6d7683;
+  border-width: 0 0 0px;
+  outline: none;
+  outline: 0;
+  background-color: transparent;
+  width: 100%;
+  line-height: 26px;
+}
+
+.attendeeRow {
+  display: flex;
+  justify-content: space-between;
+}

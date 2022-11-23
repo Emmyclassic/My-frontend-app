@@ -1,0 +1,27 @@
+.social_btn {
+  align-items: center;
+  background-color: #175fff;
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  flex: 0 0 45%;
+  padding: 0.8rem;
+}
+.social_btn_bg {
+  background-color: #da3a25;
+}
+.social_name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+.social_icon {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}

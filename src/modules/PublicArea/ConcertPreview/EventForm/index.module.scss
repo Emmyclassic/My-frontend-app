@@ -1,0 +1,70 @@
+.form__input_submit_request {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  padding: 1.4rem;
+  width: 100%;
+}
+.form__input_wrap {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input_label {
+  align-items: center;
+  color: #030111;
+  display: flex;
+  font-family: ttnorms;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.form__input {
+  background-color: #eeeef5;
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  flex: 1;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1.2rem;
+}
+.form__input::placeholder {
+  color: #5c6574;
+  font-family: ttnorms;
+  font-weight: 300;
+}
+.form__input_inline > .form__input_box {
+  justify-content: space-between;
+  width: 50%;
+}
+.form__input_date {
+  width: 100%;
+}
+.form__label_text {
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.form__input_setting {
+  align-self: flex-start;
+}
+.form__label_title {
+  color: #000;
+  font-family: ttnorms;
+  margin-top: -1rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.form__label_content {
+  color: #acb3bd;
+  font-family: ttnorms;
+  font-weight: 300;
+}

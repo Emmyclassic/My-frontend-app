@@ -1,0 +1,48 @@
+.participant_card {
+  background: #530006;
+  border: 5px solid #EAEAEA;
+  color: #CDCCCF;
+  border-radius: 12px;
+  height: 10rem;
+  width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.participant_card_icon {
+  position: absolute;
+  bottom: -9px;
+  right: -10px;
+  background: #FF4040;
+  border-radius: 50%;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.participant_card_name {
+  font-family: ttnorms;
+  font-size: 2.2rem;
+}
+
+.mic_on {
+  background: #09974D;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,62 @@
+@import "../../styles/abstracts/mixins";
+
+.container_introd {
+  background: #fafafa;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-family: ttnorms;
+  font-family: ttnorms;
+  height: 28.25rem;
+  opacity: 1;
+  position: relative;
+  @include respond(phone) {
+    margin-top: 80px;
+  }
+}
+
+.icon_image {
+  position: absolute;
+  right: 0;
+  top: 4px;
+  img {
+    height: 18rem;
+    width: 18rem;
+  }
+}
+
+.container_wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 8rem;
+  width: 100%;
+  @media (max-width: 600px) {
+    margin-top: 0;
+  }
+}
+
+.content_container {
+  padding: 4rem 0;
+  position: relative;
+  width: 70rem;
+  @media (max-width: 860px) {
+    padding: 1.5rem 2rem 4rem;
+    width: 100%;
+  }
+}
+
+.container_title {
+  color: #000;
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.container_desc {
+  color: #7b828d !important;
+  font-size: 1.2rem;
+}

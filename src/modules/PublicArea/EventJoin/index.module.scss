@@ -1,0 +1,229 @@
+.containerNav {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.containerNav_left {
+  margin-right: auto;
+}
+
+.containerNav_iconBox {
+  align-items: center;
+  background-color: #acb3bd;
+  border-radius: 50%;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+.publishEvent {
+  background-color: #ef3125;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1.5rem;
+}
+.editContinue:link,
+.editContinue:active {
+  color: #5c6574;
+  font-family: ttnorms;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+}
+.containerNav_right {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.description {
+  color: #000000;
+  font-family: ttnorms;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 23px;
+  margin-top: 3rem;
+  width: 50%;
+}
+.resourceBox {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.resourceItem {
+  align-items: center;
+  align-items: center;
+  border: 1px solid #5c6574;
+  border-radius: 5px;
+  color: #5c6574;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 1.5rem;
+  padding: 1.3rem;
+}
+
+.iconBox {
+  display: block;
+  height: 35px;
+  width: 35px;
+}
+.iconImg {
+  width: 100%;
+}
+.iconResource {
+  color: #5c6574;
+}
+.resourceItem_selected {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  .iconResource {
+    color: #fff;
+  }
+}
+.resourceItem_selected:hover {
+  background-color: #ef3125;
+  color: #fff;
+}
+.modalResolution_badge {
+  background-color: #09974d52;
+  border-radius: 5px;
+  color: #09974d;
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+  font-family: ttnorms;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.modalResolution_header {
+  color: #000;
+  font-family: ttnorms;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.form__input_submit_request {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  padding: 1.4rem;
+  width: 100%;
+}
+.form__input_wrap {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  width: 100%;
+}
+
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input_label {
+  align-items: center;
+  color: #030111;
+  display: flex;
+  font-family: ttnorms;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.form__input {
+  background-color: #eeeef5;
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  flex: 1;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1.2rem;
+}
+.form__input::placeholder {
+  color: #5c6574;
+}
+.form__input_inline > .form__input_box {
+  justify-content: space-between;
+  width: 50%;
+}
+.form__label_text {
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.form__input_setting {
+  align-self: flex-start;
+}
+.form__label_title {
+  color: #000;
+  font-family: ttnorms;
+  margin-top: -1rem;
+}
+.form__label_content {
+  color: #acb3bd;
+}
+.poll_btn {
+  background-color: #5c6574;
+  border: none;
+  border-radius: 5px;
+  bottom: 0;
+  color: #fff;
+  margin-top: 40rem;
+  outline: none;
+  padding: 2rem 4rem;
+  position: sticky;
+}
+
+.eventJoinForm,
+.audioWrapper {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 2rem 3rem;
+  position: relative;
+  z-index: 3010000;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.meetingForm {
+  margin-top: 3rem;
+}
+
+.joinHeader {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: ttnorms;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.meeting_label {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.83;
+  font-weight: 500;
+}
+
+.meeting__input {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #9999992b;
+  padding: 1.2rem;
+}
+.meeting__input_box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.meetingJoinBtn {
+  width: 100%;
+  background-color: #2f89fe;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.meetingForm .form__input_wrap {
+  margin-bottom: 10rem;
+}

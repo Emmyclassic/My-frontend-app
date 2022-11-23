@@ -1,0 +1,77 @@
+// $color-primary: #fff;
+// $color-primary-light: #fff;
+// $color-primary-dark: #fff;
+
+// $color-grey-dark: gray;
+
+/*=============================================
+=            colors            =
+=============================================*/
+
+/* Brand color */
+$green-100: #00b871;
+$green-200: #09974d;
+$red-100: #ff4040;
+$red-200: #ef3125;
+$red-300: #f00;
+$red-400: #d90b2c;
+
+/* Neural color */
+$pure-black: #000;
+$darker-black: #030111;
+$light-black: #00000069;
+
+$gray-100: #eaeaea;
+$gray-200: #ced0d5;
+$gray-300: #d5d5d5;
+$gray-400: #ced3d9;
+$gray-500: #5c6574;
+$gray-600: #646464;
+
+$white: #fff;
+$light-white: #f4f5f9;
+
+/* utility color */
+$yellow: #fba904;
+$light-yellow: #ffcf66;
+
+$gold: #ffa640;
+$light-gold: #f4c534;
+$lighter-red: #f8bebb;
+$lightest-red: #fbf0ef;
+$lighter-green: #09974d52;
+
+/*=====  End of colors  ======*/
+
+/*=============================================
+=            Topography            =
+=============================================*/
+
+$ttnorms: "ttnorms", sans-serif;
+
+/* font sizes */
+
+$fs-xs: 1.2rem; // 12px;
+$fs-sm: 1.4rem; // 14rem
+$fs-md: 1.6rem; // 16rem
+$fs-lg: 1.8rem; // 18px
+$fs-xlg: 2.4rem; // 24rem
+
+/* Heading font size */
+
+$h-1: 2.2rem; // 22px
+$h-2: 2.2rem; // 22px
+$h-3: 1.8rem; // 1.8px
+$h-4: 1.6rem; // 1.6px
+$h-5: 1.2rem; // 1.2px
+
+/* Font weight */
+
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+/*=====  End of topography  ======*/

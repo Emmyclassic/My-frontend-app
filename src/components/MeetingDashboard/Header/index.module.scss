@@ -1,0 +1,117 @@
+@import "../../../styles/abstracts/mixins";
+
+.nav_container {
+  height: 8vh;
+  width: 100%;
+  background: #171717;
+  color: #e6eaed;
+  display: flex;
+  position: relative;
+  z-index: 100;
+  font-family: ttnorms;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 6.5% 0px 2%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  &_left {
+    display: flex;
+    align-items: center;
+    &_logo {
+      width: 2.5rem;
+      margin-right: 3rem;
+    }
+  }
+  &_right {
+    display: flex;
+    align-items: center;
+  }
+}
+.nav_navigation {
+  display: flex;
+  align-items: center;
+  span {
+    letter-spacing: 0.16px;
+    color: #e6eaed;
+    font-family: ttnorms;
+    font-size: 1.5rem;
+  }
+}
+.icon_container {
+  margin-right: 1rem;
+  &__setting {
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    background-color: #313131;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    &:hover {
+      background-color: #636060;
+      cursor: pointer;
+    }
+  }
+}
+.mr_1 {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.mr_3 {
+  margin-right: 2rem;
+}
+.nav_right_list {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 5rem;
+}
+
+.nav_bar{
+  margin: 0px 20px;
+  display: none;
+  @include respond(tab-land){
+    display: block;
+  }
+  @include respond(phone){
+    margin-right: 25px;
+  }
+}
+
+.nav_list_container {
+  margin-right: 6rem;
+  display: flex;
+  align-items: center;
+  
+@include respond(tab-land) {
+  display: none;
+}
+
+  span {
+    letter-spacing: 0.16px;
+    color: #e6eaed;
+    font-family: ttnorms;
+    font-size: 1.5rem;
+  }
+}
+.resolution_count {
+  background: #09974d;
+  color: #0be875;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 0.85rem;
+}
+.raise_hand {
+  &_content {
+    display: flex;
+    align-items: center;
+    background-color: #494449;
+    padding: 0.8rem;
+  }
+  &_icon {
+    margin-right: 0.65rem;
+    cursor: pointer;
+  }
+  &_last {
+    cursor: pointer;
+  }
+}

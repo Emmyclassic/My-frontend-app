@@ -1,0 +1,77 @@
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.feedbackBox {
+  text-align: center;
+  width: 30%;
+}
+
+.feedbackType {
+  font-family: ttnorms;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.iconWrap {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.iconBox {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #dd1c4b1a;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 8rem;
+}
+
+.congratImg {
+  width: 80%;
+}
+
+.description {
+  color: #5c6574;
+  font-family: ttnorms;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.48px;
+  opacity: 1;
+  font-size: 15px;
+}
+
+.feedback_btn {
+  background-color: #ff4040;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  padding: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+/*# sourceMappingURL=index.module.css.map */

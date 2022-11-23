@@ -1,0 +1,13 @@
+.main {
+  font-family: normal normal normal 36px/43px TT Norms Pro;
+  margin-top: 2.5rem;
+  min-height: 50vh;
+  width: 80rem;
+}
+
+@media (max-width: 1040px) {
+  .main {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

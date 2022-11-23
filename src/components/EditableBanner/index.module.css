@@ -1,0 +1,17 @@
+.container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 150px;
+  position: relative;
+  width: 100%;
+}
+
+.card__editBox {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.module.css.map */

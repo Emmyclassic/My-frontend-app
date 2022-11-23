@@ -1,0 +1,14 @@
+.main {
+  margin-top: 10rem;
+  width: 100%;
+}
+
+.eventContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+}
+/*# sourceMappingURL=index.module.css.map */

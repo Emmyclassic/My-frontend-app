@@ -1,0 +1,10 @@
+.content__container {
+  padding: 4rem 10rem 4rem 4rem;
+  @media (max-width: 680px) {
+    padding: 4rem 2rem;
+  }
+}
+
+.main {
+  margin-top: 4rem;
+}

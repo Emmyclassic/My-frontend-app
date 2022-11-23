@@ -1,0 +1,96 @@
+/*
+0 - 600px phone
+600px - 900px  Tablet Protraits
+900px - 1200px  Tablet Landscape
+1200px - 1800 current style apply
+1800+ Big desktop
+*/
+/*
+Breakpoint aurgument
+- Phone
+- Tablet-protrait
+- Tablet-landscape
+- big Desktop
+
+*/
+.container_introd {
+  background: #fafafa;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: ttnorms;
+  font-family: ttnorms;
+  height: 28.25rem;
+  opacity: 1;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .container_introd {
+    margin-top: 80px;
+  }
+}
+
+.icon_image {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+.icon_image img {
+  height: 18rem;
+  width: 18rem;
+}
+
+.container_wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-top: 8rem;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .container_wrapper {
+    margin-top: 0;
+  }
+}
+
+.content_container {
+  padding: 4rem 0;
+  position: relative;
+  width: 70rem;
+}
+
+@media (max-width: 860px) {
+  .content_container {
+    padding: 1.5rem 2rem 4rem;
+    width: 100%;
+  }
+}
+
+.container_title {
+  color: #000;
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.container_desc {
+  color: #7b828d !important;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=index.module.css.map */

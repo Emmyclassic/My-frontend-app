@@ -1,0 +1,80 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.feedbackBox {
+  //margin: auto;
+  text-align: center;
+  width: 40%;
+}
+.feedbackType {
+  font-family: ttnorms;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.iconWrap {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.iconBox {
+  align-items: center;
+  background-color: #dd1c4b1a;
+  border-radius: 50%;
+  display: flex;
+  height: 8rem;
+  justify-content: center;
+  width: 8rem;
+}
+.congratImg {
+  width: 80%;
+}
+.description {
+  color: #5c6574;
+  font-size: 1.3rem;
+}
+
+.inviteBox {
+  margin-bottom: 2rem;
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.partner__list_link:link,
+.partner__list_link:visited,
+.social__list__link:visited,
+.social__list__link:link {
+  color: #707070;
+}
+
+.social__list_item:not(:last-child),
+.partner__list_item:not(:last-child) {
+  margin-bottom: 2rem;
+  margin-right: 10px;
+}
+.social__icon {
+  align-items: center;
+  background-color: #e6eaed99;
+  border-radius: 50%;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  width: 3rem;
+}
+
+.feedback_btn {
+  background-color: #ff4040;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  padding: 1.5rem;
+  text-align: center;
+  width: 100%;
+}

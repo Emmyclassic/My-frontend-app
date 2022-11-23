@@ -1,0 +1,104 @@
+@import "../../styles/abstracts/mixins";
+
+.container_introd {
+  align-content: center;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940349/apems/meeting4_cqalpb.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  font-family: ttnorms;
+  height: 55rem;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+  @include respond(tab-land) {
+    height: initial;
+    display: flex;
+    padding: 150px 0 100px;
+  }
+  @include respond(phone) {
+    padding: 110px 0 50px;
+  }
+}
+
+.container_pageName {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+  @include respond(tab-land) {
+    font-size: 29px;
+  }
+  @include respond(phone) {
+    font-size: 20px;
+  }
+}
+
+.container_title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+  position: relative;
+  @include respond(tab-land) {
+    font-size: 56px;
+    z-index: 10;
+    position: sticky;
+  }
+  @include respond(phone) {
+    font-size: 26px;
+  }
+}
+
+.container_desc {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+  margin-bottom: 2rem;
+  @include respond(phone) {
+    line-height: 32px;
+  }
+}
+
+.leftSide {
+  padding: 20rem 15rem;
+  width: 60%;
+  @include respond(tab-land) {
+    padding: 0px;
+    width: 80%;
+    margin: auto;
+  }
+  @include respond(phone) {
+    width: 85%;
+  }
+}
+.rightSide {
+  align-items: center;
+  //   z-index: 100;
+  display: flex;
+
+  width: 40%;
+  &_img {
+    display: block;
+    height: 300px;
+    width: 300px;
+  }
+  @include respond(tab-land) {
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    width: 40%;
+  }
+  @include respond(phone) {
+    top: 100px;
+    width: 70%;
+
+    &_img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+}
+.footerTitle {
+  bottom: 15%;
+  position: absolute;
+}

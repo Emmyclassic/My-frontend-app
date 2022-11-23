@@ -1,0 +1,21 @@
+.joinType {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  background-color: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: ttnorms;
+}
+
+.joinType-mcard-item_selected {
+  background-color: #2f89fe;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.meetingPop .ant-modal-content {
+  border-radius: 10px;
+}
+/*# sourceMappingURL=index.css.map */

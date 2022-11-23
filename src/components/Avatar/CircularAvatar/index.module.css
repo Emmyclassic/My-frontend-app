@@ -1,0 +1,18 @@
+.container {
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+.container_img {
+  border-radius: 50%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 150px;
+}
+
+.container_title {
+  font-family: ttnorms;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=index.module.css.map */

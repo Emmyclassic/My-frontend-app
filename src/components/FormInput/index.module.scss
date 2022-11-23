@@ -1,0 +1,31 @@
+.form__input_wrap {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.form__input_inline {
+  display: flex;
+  justify-content: space-between;
+}
+.form__input_inline > .form__input_box {
+  flex: 0 0 45%;
+}
+.form__input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  border: 1px solid #ced0d5;
+  outline: none;
+  padding: 1.5rem;
+}
+.form__input::placeholder {
+  color: #edeef1;
+}
+.inputCount {
+  display: flex;
+  justify-content: flex-end;
+}
+.validation__error {
+  color: #ff4040;
+}

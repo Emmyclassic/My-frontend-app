@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACEA;;;;;;EAME;AAEF;;;;;;;EAOE;ADkBF,AAAA,UAAU,CAAC;EACT,YAAY,EAAE,MAAM;CACrB",
+    "sources": [
+        "GoogleTranslate.scss",
+        "../../../styles/abstracts/_mixins.scss"
+    ],
+    "names": [],
+    "file": "GoogleTranslate.css"
+}

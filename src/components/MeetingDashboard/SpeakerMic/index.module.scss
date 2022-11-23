@@ -1,0 +1,37 @@
+.speaker_mic {
+  position: absolute;
+  left: 190px;
+  bottom: 100px;
+  height: 4rem;
+  min-width: 16rem;
+  background: #45454A;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  &_dot {
+    height: 0.4rem;
+    width: 0.4rem;
+    background: #09974D;
+    border-radius: 50%;
+  }
+  &_name {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-family: ttnorms;
+  }
+  &_icon {
+    width: 20%;
+    height: 100%;
+    background: #09974D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 8px 8px 0px;
+  }
+}
+.mr_2 {
+  margin-left: 1rem;
+}

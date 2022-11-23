@@ -1,0 +1,19 @@
+/*
+0 - 600px phone
+600px - 900px  Tablet Protraits
+900px - 1200px  Tablet Landscape
+1200px - 1800 current style apply
+1800+ Big desktop
+*/
+/*
+Breakpoint aurgument
+- Phone
+- Tablet-protrait
+- Tablet-landscape
+- big Desktop
+
+*/
+.nav__link {
+  margin-right: 1.5rem;
+}
+/*# sourceMappingURL=GoogleTranslate.css.map */

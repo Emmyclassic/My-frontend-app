@@ -1,0 +1,32 @@
+.site-collapse-custom-panel > .ant-collapse-header {
+  background-color: #fff !important;
+}
+
+.site-collapse-custom-collapse-faq
+> .site-collapse-custom-panel
+.ant-collapse
+> .ant-collapse-item
+> .ant-collapse-header {
+  color: red !important;
+}
+
+.site-collapse-custom-collapse {
+  background-color: transparent;
+}
+
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  background-color: transparent !important;
+  border-left: red !important;
+}
+
+.site-collapse-custom-collapse
+.site-collapse-custom-collapse
+.ant-collapse-content-box {
+  border-left: 1px solid red;
+}
+
+.site-collapse-custom-panel-faq .ant-collapse-content-box {
+  border-left: 3px solid red !important;
+  margin-top: 1rem !important;
+}
+/*# sourceMappingURL=index.css.map */

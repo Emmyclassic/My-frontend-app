@@ -1,0 +1,76 @@
+/*
+0 - 600px phone
+600px - 900px  Tablet Protraits
+900px - 1200px  Tablet Landscape
+1200px - 1800 current style apply
+1800+ Big desktop
+*/
+/*
+Breakpoint aurgument
+- Phone
+- Tablet-protrait
+- Tablet-landscape
+- big Desktop
+
+*/
+.meeting__btn {
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: "cover";
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  padding: 2rem;
+  position: relative;
+  z-index: 99;
+}
+
+@media (max-width: 600px) {
+  .meeting__btn {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    background: -webkit-gradient(linear, left top, right bottom, from(#ef3125), to(#ef3125)), url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+    background: linear-gradient(to right bottom, #ef3125, #ef3125), url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+    margin-top: 1rem;
+    padding: 2rem 5rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .meeting__btn:hover {
+    background-color: rgba(217, 11, 44, 0.85) !important;
+  }
+}
+
+.meeting__btn::after {
+  background-color: rgba(217, 11, 44, 0.85);
+  border-radius: 5px;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -10;
+}
+
+@media (max-width: 1200px) {
+  .meeting__btn::after {
+    background-color: #030111;
+  }
+  .meeting__btn::after:hover {
+    background-color: rgba(217, 11, 44, 0.85);
+  }
+}
+
+.meeting__btn__text {
+  position: relative;
+  z-index: 999;
+}
+/*# sourceMappingURL=Button.module.css.map */

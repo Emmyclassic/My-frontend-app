@@ -1,0 +1,30 @@
+.attendContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  width: 70%;
+}
+.card-item {
+  border: 1px solid #ced0d5;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+.card-item_item_icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.card-item_item_title {
+  font-family: ttnorms;
+  font-size: 1.5rem;
+}
+.card-item_selected {
+  border: 1px solid #ef3125;
+  padding: 1rem 1.5rem;
+}
+.card-item_selected > span:first-child {
+  color: #ef3125;
+}

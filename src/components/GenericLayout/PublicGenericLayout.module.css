@@ -1,0 +1,17 @@
+.layout {
+  background-color: #fff;
+  border-bottom: 1px solid #dbe2e8;
+  -webkit-box-shadow: inset 0 0 0 0 #dbe2e8;
+          box-shadow: inset 0 0 0 0 #dbe2e8;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+@media (max-width: 600px) {
+  .layout {
+    position: relative;
+    z-index: 60;
+  }
+}
+/*# sourceMappingURL=PublicGenericLayout.module.css.map */

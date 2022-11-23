@@ -1,0 +1,147 @@
+.card_container {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.flex_end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.card_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.card_content_wrap {
+  width: 80%;
+}
+
+.card_content_desc {
+  font-size: 1rem;
+  background: #363636;
+  padding: 1.2rem;
+  color: #ccc;
+}
+
+.sender_box {
+  border-radius: 0px 15px 15px 15px;
+}
+
+.receiver_box {
+  border-radius: 15px 0px 15px 15px;
+}
+
+.ml_1 {
+  margin-left: 1.5rem;
+}
+
+.mr_1 {
+  margin-right: 1.5rem;
+}
+
+.chat_time {
+  color: #ccc;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chat_time_rec {
+  color: #ccc;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.participant_card {
+  background: #530006;
+  border: 2px solid #eaeaea;
+  color: #cdcccf;
+  border-radius: 15px;
+  height: 4rem;
+  width: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.participant_card_name {
+  font-family: ttnorms;
+  font-size: 1.1rem;
+}
+
+.grid_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #363636;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.grid_container_desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid_container_detail {
+  margin-left: 0.5rem;
+}
+
+.grid_container_detail p {
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  font-family: ttnorms;
+  margin: 0;
+}
+
+.grid_container_detail span {
+  color: #5f616c;
+  font-family: ttnorms;
+  font-size: 0.9rem;
+}
+
+.grid_container_time {
+  color: #5f616c;
+  font-family: ttnorms;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.single_card_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 900000;
+}
+/*# sourceMappingURL=index.module.css.map */

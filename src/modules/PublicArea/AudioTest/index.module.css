@@ -1,0 +1,104 @@
+.container {
+  height: 100vh;
+}
+
+.audioWrapper {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 2rem 3rem;
+  position: relative;
+  z-index: 3010000;
+  overflow: hidden;
+}
+
+.audioContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3rem;
+  width: 65%;
+  margin: auto;
+}
+
+.audioBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.audioBtn {
+  display: block;
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: ttnorms;
+  font-size: 1.3rem;
+}
+
+.computerAudio {
+  background-color: #2f89fe;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.micAudio {
+  border: 1px solid #fff;
+  background: none;
+}
+
+.acceptCond {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.innerBox {
+  width: 120px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  background-color: #585b65;
+}
+
+.outerIconBox {
+  width: 160px;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+/*# sourceMappingURL=index.module.css.map */

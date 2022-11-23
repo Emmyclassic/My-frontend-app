@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+
+.container h4 {
+  font-family: ttnorms;
+  font-size: 1.2rem;
+  font-weight: 600 !important;
+}
+
+.container_desc {
+  color: #030111;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  opacity: 1;
+  font-family: ttnorms;
+  text-align: left;
+  font-family: 600;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,181 @@
+@import "../../../styles/abstracts/mixins";
+.third__main {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940343/apems/grid4_samq6i.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  // background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  @include respond(tab-land) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940343/apems/grid4_samq6i.jpg");
+    background-color: #000;
+    background-position: left center;
+    background-repeat: repeat;
+  }
+  @include respond(phone) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940343/apems/grid4_samq6i.jpg");
+    background-color: #000;
+    background-position: left center;
+    background-repeat: repeat;
+    height: initial;
+    @include respond(tab-land) {
+      // padding: 20px 0;
+    }
+  }
+}
+
+.third__main__wrapper {
+  margin: auto;
+  position: relative;
+  width: 80%;
+  @include respond(tab-land) {
+    width: 90%;
+  }
+  @include respond(phone) {
+    width: 90%;
+  }
+}
+
+.third__main::before {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940344/apems/Group43_b0uq89.svg");
+  background-position: 125% -9rem;
+  background-repeat: no-repeat;
+  background-size: 38%;
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -5;
+  @include respond(phone) {
+    background-position: 110% 10rem;
+    height: 30%;
+  }
+}
+.third__main__wrapper::before {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940344/apems/Group43_b0uq89.svg");
+  background-position: -20rem 30rem;
+  background-repeat: no-repeat;
+  background-size: 48%;
+  content: "";
+  height: 100%;
+  left: -20%;
+  position: absolute;
+  width: 100%;
+  z-index: -5;
+  @include respond(phone) {
+    background: none;
+    display: none;
+  }
+}
+.third__main__title_box {
+  margin: auto;
+  margin-bottom: 9rem;
+  padding: 30px 10px;
+  position: relative;
+  text-align: center;
+  width: 60%;
+  @include respond(tab-land) {
+    margin-bottom: 30px;
+  }
+
+  @include respond(phone) {
+    width: 90%;
+    padding: 40px 10px;
+  }
+}
+
+.third__main__title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  @include respond(phone) {
+    font-size: 30px;
+  }
+}
+.third__main__subtitle {
+  // color: #FFFFFF;
+  // opacity: 76%;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 1.5rem;
+}
+.third__main__features {
+  margin: auto;
+  width: 90%;
+}
+.third__main__features__wrap {
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  @include respond(tab-land) {
+    flex-wrap: wrap;
+  }
+
+  @include respond(phone) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.third__main__features__card {
+  flex: 0 0 30%;
+  margin-bottom: 100px;
+  text-align: center;
+  position: relative;
+  @include respond(tab-land) {
+    flex: initial;
+    width: 40%;
+  }
+  @include respond(phone) {
+    flex: initial;
+    width: 90%;
+  }
+}
+.third__main__features__card_title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  @include respond(phone) {
+    margin: 25px;
+  }
+}
+.third__main__features__card_content {
+  color: rgba(255, 255, 255, 0.36);
+}
+.third__main__features__card_icon {
+  margin-bottom: 1rem;
+}
+.third__main__features__card_ps::after {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to right, rgb(51, 255, 0), rgb(21, 255, 0));
+  width: 2px;
+  height: 80px;
+  display: inline-block;
+  opacity: 0.2;
+  top: 40%;
+  right: -40px;
+  border-radius: 100%;
+}
+.third__main__features__card_ps::before {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to right, rgb(51, 255, 0), rgb(21, 255, 0));
+  width: 2px;
+  height: 80px;
+  display: inline-block;
+  top: 40%;
+  left: -40px;
+  opacity: 0.2;
+  border-radius: 100%;
+}

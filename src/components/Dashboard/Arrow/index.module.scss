@@ -1,0 +1,16 @@
+.container {
+  margin-right: 1rem;
+  &__setting {
+    align-items: center;
+    background-color: #d9d9dc;
+    border-radius: 50%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+    &:hover {
+      background-color: #636060;
+      cursor: pointer;
+    }
+  }
+}

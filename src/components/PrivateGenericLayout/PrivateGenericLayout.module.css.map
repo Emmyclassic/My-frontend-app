@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAClB,OAAO,EAAE,oBAAoB;CAI9B;;AAHC,MAAM,EAAE,SAAS,EAAE,KAAK;EAF1B,AAAA,mBAAmB,CAAC;IAGhB,OAAO,EAAE,SAAS;GAErB;;;AAED,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "PrivateGenericLayout.module.scss"
+    ],
+    "names": [],
+    "file": "PrivateGenericLayout.module.css"
+}

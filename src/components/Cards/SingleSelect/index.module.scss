@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid #6d76838f;
+  border-radius: 5px;
+  display: flex;
+  opacity: 1;
+  width: 100%;
+}
+.box {
+  padding: 1rem;
+  width: 50%;
+}
+.active_box {
+  background: #fde4e2 0% 0% no-repeat padding-box;
+  border: 1px solid #ef3125;
+  padding: 1rem;
+  width: 50%;
+}
+.border_first {
+  border-radius: 5px 0 0 5px;
+}
+.border_second {
+  border-radius: 0 5px 5px 0;
+}

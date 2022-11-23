@@ -1,0 +1,138 @@
+.tableHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 1.2rem;
+}
+
+.tableHeader_title {
+  color: #030111;
+
+  font-family: ttnorms;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  margin-right: 20%;
+  opacity: 1;
+  text-align: left;
+}
+.tableHeader_iconList {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+}
+.btnGroup_item {
+  align-items: center;
+  background-color: #e6eaed;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.uploadIcon {
+  color: #5c6574;
+}
+
+.filterContainer {
+  border-top: 1px solid #e2e5ec;
+  display: flex;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 1.3rem;
+}
+.filterContainer_left {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.left_btn {
+  background: #f2faf6 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 5px;
+  border-radius: 5px;
+  color: #09974d;
+  font-family: ttnorms;
+  opacity: 1;
+  padding: 0.8rem 1.5rem;
+}
+.listItem {
+  background-color: #eaeaea;
+  color: #a9aeb6;
+  border: none;
+  border-radius: 5px;
+  border-radius: 5px;
+  font-family: ttnorms;
+  opacity: 1;
+  padding: 0.4rem 1.5rem;
+}
+.newList {
+  background-color: #09974d;
+  border: none;
+  border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: ttnorms;
+  opacity: 1;
+  padding: 0.8rem 1.5rem;
+}
+.paginateBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+.addProxyHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.questionBox {
+  background-color: #2f89fe;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addTitle {
+  font-family: ttnorms;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.addDesc {
+  font-size: 1.4rem;
+  font-family: ttnorms;
+  font-weight: 400;
+}
+.form__input_wrap {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.form__input_submit_request {
+  background-color: #ef3125;
+  border: none;
+  color: #fff;
+  margin-top: 1.5rem;
+  padding: 1.4rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.listWrapper {
+  display: flex;
+  gap: 1rem;
+}
+.listItem {
+  cursor: pointer;
+}

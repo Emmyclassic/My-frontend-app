@@ -1,0 +1,36 @@
+.searchInputBox {
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.searchInput {
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  border: none;
+  opacity: 1;
+  outline: none;
+  padding: 1.2rem;
+  width: 70%;
+}
+
+.searchIcon {
+  background-color: #ef3125;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  width: 30%;
+  cursor: pointer;
+}
+
+.meetingCopied {
+  background-color: gray;
+  color: #fff;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 10px 15px;
+  font-family: ttnorms;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 0;
+}

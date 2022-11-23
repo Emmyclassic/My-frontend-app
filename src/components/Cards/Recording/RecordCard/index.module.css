@@ -1,0 +1,100 @@
+.container {
+  min-width: 35.5rem;
+  height: 13.5rem;
+  background: #030111 0% 0% no-repeat padding-box;
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+}
+
+.recording_avatar {
+  border-radius: 5px;
+  background: #a7a4bb 0% 0% no-repeat padding-box;
+  border: 1px solid #DBDBDB;
+  width: 38%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recording_avatar_play {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.recording_detail {
+  background: inherit;
+  width: 58%;
+  color: white;
+}
+
+.recording_detail_title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: ttnorms;
+  margin: 0 !important;
+}
+
+.recording_desc {
+  background: inherit;
+  width: 100%;
+  border-top: 1px solid #40404d;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.recording_desc p {
+  font-size: 1rem;
+  font-family: ttnorms;
+  letter-spacing: 0.48px;
+  color: #C6C6C6;
+}
+
+.recording_desc_ellipse {
+  cursor: pointer;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu_container {
+  width: 13rem;
+}
+
+.menu_container_desc {
+  font-family: ttnorms;
+  font-size: 0.85rem;
+  padding: 0.1rem !important;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,249 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    flex-basis: 55%;
+    &__btn {
+      border: none;
+      border-radius: 19px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      outline: none;
+      padding: 3rem 7rem;
+      &_join {
+        background-color: #ef3125;
+        color: #fff;
+        margin-right: 1rem;
+      }
+      &_create {
+        background-color: #fff;
+        border: 1px solid #5c6574;
+        color: #5c6574;
+      }
+    }
+    &__eventbox {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 5rem;
+      width: 100%;
+    }
+  }
+  &__right {
+    flex-basis: 40%;
+    &__header {
+      display: flex;
+      justify-content: flex-end;
+    }
+    &__content {
+      margin-top: 5rem;
+      // display: none;
+      &__calender {
+        display: flex;
+        justify-content: flex-end;
+      }
+      &__meetingList {
+        background: linear-gradient(
+            to right bottom,
+            rgba(239, 50, 37, 0.95),
+            rgba(239, 50, 37, 0.95)
+          ),
+          url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940341/apems/contour_ziqokq.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff !important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 4.5rem;
+        margin-top: 3rem;
+        padding: 2rem 3rem;
+      }
+    }
+    &__meeting__header {
+      &_title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0.9rem;
+      }
+      &_subtitle {
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 0.16px;
+        line-height: 1.5rem;
+      }
+    }
+    &__user__box {
+      align-items: center;
+      display: flex;
+      margin-top: 20px;
+      width: 100%;
+    }
+    &__user__list {
+      align-items: center;
+      display: flex;
+      margin-right: auto;
+    }
+    &__time_btn {
+      background-color: #01b457;
+      border: none;
+      border-radius: 12px;
+      outline: none;
+      padding: 10px 12px;
+    }
+    &__event__content {
+      margin-top: 5rem;
+    }
+    &__event__meeting {
+      background-color: #f8f9fd;
+      border-radius: 20px;
+      padding: 10px;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+    &__event__banner {
+      align-items: flex-end;
+      background: url("https://res.cloudinary.com/solomonfrank/image/upload/v1655940339/apems/consert4_vr2ae3.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+      display: flex;
+      height: 10rem;
+    }
+    &__event__banner_time_btn {
+      background-color: #01b457;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      outline: none;
+      padding: 5px 9px;
+    }
+    &__event__time_btn {
+    }
+    &__event__body {
+      margin-top: 10px;
+    }
+    &__event__body_header {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    &__event__body_desc {
+      color: #030111;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.36px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+    &__event__body_time {
+      align-items: center;
+      color: #5c6574;
+      display: flex;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.36px;
+      opacity: 1;
+    }
+    &__event__body_icon {
+      margin-right: 10px;
+    }
+    &__event__body_date {
+    }
+    &__event__footer {
+      display: flex;
+      margin-top: 30px;
+      & .name__avatar__count {
+        color: #ef3125;
+      }
+      & .name__avatar__box__avatar {
+        border: 1px solid #fff;
+      }
+    }
+    &__event__time_btn {
+      background: #ef3125 0% 0% no-repeat padding-box;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      opacity: 1;
+      outline: none;
+      padding: 10px 20px;
+    }
+  }
+}
+
+.tab_box {
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 19px;
+  display: flex;
+  padding: 0.3rem;
+}
+.comp_name {
+  color: #ef3125;
+  font-size: 15px;
+  font-weight: 600;
+}
+.comp_name_pack {
+  color: #030111;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.comp_button {
+  color: #000;
+}
+.comp_button_month {
+  padding: 2.5rem;
+  transition: all 0.1s ease-in-out;
+}
+.comp_button_year {
+  padding: 2.5rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.name__avatar__box {
+  align-items: center;
+  display: flex;
+  margin-right: 14px;
+}
+.name__avatar__box__avatar {
+  align-items: center;
+  background-color: #ffe5e4;
+  border: 2px solid #ef3125;
+  border-radius: 50%;
+  color: #ef3125;
+  display: flex;
+  height: 4rem;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 4rem;
+}
+.name__avatar__box__avatar:not(:last-child) {
+  margin-right: -15px;
+}
+.name__avatar__count {
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+}
+.tabType {
+  background-color: #fff;
+  border: none;
+  border-radius: 18px;
+  color: #ef3125;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 2.5rem;
+}
+.event__list__box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}

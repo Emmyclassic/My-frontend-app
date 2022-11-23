@@ -1,0 +1,25 @@
+.container {
+  margin-right: 1rem;
+}
+
+.container__setting {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d9d9dc;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+}
+
+.container__setting:hover {
+  background-color: #636060;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.module.css.map */

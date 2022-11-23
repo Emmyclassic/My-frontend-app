@@ -1,0 +1,26 @@
+/*=============================================
+=            Global text color            =
+=============================================*/
+
+$body-text-color: var(--apm-body-text-color, $gray-600) !default;
+$body-bg-color: var(--apm-body-bg-color, $white) !default;
+
+/*=============================================
+=            Button color            =
+=============================================*/
+
+$btn-primary-color: var(--apm-btn-primay-color, $white) !default;
+$btn-primary-bg: var(--apm-btn-primary-bg, $red-200) !default;
+
+/*=============================================
+=            Form color            =
+=============================================*/
+
+$input-border-color: var(--apm-input-border-color, $gray-200) !default;
+$input-placeholder-color: var(
+  --apm-input-placeholder-color,
+  $gray-400
+) !default;
+$label-text-color: var(--apm-label-text-color, $gray-500) !default;
+
+$form-error-color: var(--apm-form-error-color, $red-100) !default;
