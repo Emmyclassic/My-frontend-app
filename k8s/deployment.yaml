@@ -27,18 +27,18 @@ spec:
         image: 217903889262.dkr.ecr.eu-west-2.amazonaws.com/dev-ecr-repo:latest
         ports:
         - containerPort: 3000
-        resources:
-              requests:
-                cpu: 100m
-                memory: 512Mi
-              limits:
-                cpu: 200m 
-                memory: 1024Mi
+        # resources:
+        #       requests:
+        #         cpu: 100m
+        #         memory: 512Mi
+        #       limits:
+        #         cpu: 200m 
+        #         memory: 1024Mi
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: dev-ecr-repo-sl-svc
+  name: dev-ecr-repo-svc
   namespace: devtest
   labels:
     app: dev-ecr-repo
