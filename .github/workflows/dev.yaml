@@ -34,18 +34,18 @@ jobs:
            docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -f Dockerfile .
            docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
            
-      # - name: Deploy to cluster
-      #   uses: azure/setup-kubectl@v2.0
-      #   with:
-      #     version: 'v1.23.6'
-      #     id: install
-      # - env:
-      #     ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-      #     ECR_REPOSITORY: dev-ecr-repo
-      #     IMAGE_TAG: latest #${{ github.sha }}
-      #   run: |
-      #      aws eks update-kubeconfig --name mojecsolutions
-      #      kubectl apply -f K8s/dev/deployment.yaml
-      #  # restart pods
-      # - run: | 
-      #      kubectl -n uat-env rollout restart deployment inventory-service
+      - name: Deploy to cluster
+        uses: azure/setup-kubectl@v2.0
+        with:
+          version: 'v1.23.6'
+          id: install
+      - env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: dev-ecr-repo
+          IMAGE_TAG: latest #${{ github.sha }}
+        run: |
+           aws eks update-kubeconfig --name eks-cluster-test
+           kubectl apply -f k8s/deployment.yaml
+       # restart pods
+      - run: | 
+           kubectl -n devtest rollout restart deployment dev-ecr-repo
